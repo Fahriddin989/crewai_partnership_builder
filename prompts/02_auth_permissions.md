@@ -1,20 +1,150 @@
-# Iteration 02 — authentication and basic staff permissions
+# Iteration 02 — Authentication and permissions
 
-Run ONLY after Iteration 01B verification reports STATUS: COMPLETE.
+Existing Django REST backend is working and Step 1 verification is COMPLETE.
 
-Add SimpleJWT for the future Vue SPA. Endpoints: POST `/api/auth/token/`, POST `/api/auth/token/refresh/`, GET `/api/auth/me/`.
+Make a SMALL PATCH only.
+Do not redesign existing models.
+Do not build Vue.
+Do not modify public organization response fields.
 
-Use Django Groups, not a complex custom role model:
-- Partnership Editors: full CRUD for partnership data/documents/activities/contacts.
-- Partnership Viewers: authenticated read-only internal access, including document viewing/downloading.
-- Superusers: full access.
+## Goal
 
-Use a reusable DRF permission class. Do not hard-code usernames.
+Add JWT authentication and basic staff roles.
 
-Public `GET /api/public/organizations/` remains anonymous and unchanged. Anonymous users remain blocked from internal APIs.
+Use:
 
-Manage users/groups initially through Django Admin; no custom user-management UI yet.
+djangorestframework-simplejwt
 
-Add focused tests for anonymous/public/viewer/editor permissions. Run `python manage.py check`, `python manage.py test`, and `python manage.py makemigrations --check --dry-run`.
+Add endpoints:
 
-No Vue or unrelated features in this iteration.
+POST /api/auth/token/
+POST /api/auth/token/refresh/
+GET  /api/auth/me/
+
+`/api/auth/me/` must require authentication and return only:
+
+- id
+- username
+- first_name
+- last_name
+- email
+
+## Roles
+
+Use Django built-in Groups.
+
+Required groups:
+
+- Partnership Editors
+- Partnership Viewers
+
+Create these groups safely, preferably through a Django data migration.
+
+Do NOT create a custom User model.
+
+## Permissions
+
+Public endpoint:
+
+GET /api/public/organizations/
+
+must remain AllowAny.
+
+All other partnership API endpoints must block anonymous users.
+
+Superuser:
+- full access
+
+Partnership Editors:
+- GET
+- POST
+- PUT
+- PATCH
+- DELETE
+
+Partnership Viewers:
+- GET only
+- no POST
+- no PUT
+- no PATCH
+- no DELETE
+
+Authenticated users who are not superusers and are in neither partnership group:
+- no access to internal partnership API
+
+Create a reusable DRF permission class.
+Do not duplicate role logic across every ViewSet.
+
+Apply it to:
+
+- organizations
+- agreements
+- contacts
+- agreement-contacts
+- documents
+- activities
+
+## Documents
+
+Partnership Viewers may view/download documents.
+
+Only Partnership Editors and superusers may create/update/delete document records.
+
+## Tests
+
+Add focused Django tests using Django's test database.
+
+Test at minimum:
+
+1. public organizations endpoint works anonymously
+2. anonymous internal API is blocked
+3. anonymous /api/auth/me/ is blocked
+4. viewer can GET internal API
+5. viewer cannot POST
+6. editor can GET
+7. editor can POST
+8. unrelated authenticated user cannot access internal API
+9. superuser has full access
+10. JWT token endpoint exists
+
+Run these commands SEPARATELY.
+
+Do not chain them with &&.
+
+Run:
+
+python manage.py check
+
+python manage.py makemigrations --noinput
+
+python manage.py migrate --noinput
+
+python manage.py test
+
+python manage.py makemigrations --check --dry-run --noinput
+
+If any command fails, fix only that issue and rerun it.
+
+## Scope guard
+
+Do NOT implement:
+
+- Vue
+- custom User model
+- password reset
+- email verification
+- SSO
+- finance
+- analytics
+- contributions
+- notifications
+- advanced user management UI
+
+Stop immediately when requested tests pass.
+
+Final answer:
+
+CHANGED FILES
+CHECKS RUN
+REMAINING BLOCKERS
+ITERATION STATUS: COMPLETE or INCOMPLETE
