@@ -1,0 +1,8 @@
+<template><div><div class="page-heading"><div><h1>Organizations</h1><p>Manage university partnership organizations.</p></div></div><div class="filters"><input v-model="search" placeholder="Search by name…" /><select v-model="type"><option value="">All types</option><option v-for="(label,key) in typeLabels" :key="key" :value="key">{{ label }}</option></select></div><p v-if="loading">Loading organizations…</p><p v-else-if="error" class="error">{{ error }}</p><p v-else-if="filtered.length === 0" class="empty">No organizations found.</p><div v-else class="table-wrap"><table><thead><tr><th>Name</th><th>Type</th><th>Country</th><th>Website</th></tr></thead><tbody><tr v-for="org in filtered" :key="org.id"><td>{{ org.name }}</td><td>{{ typeLabels[org.organization_type] || org.organization_type }}</td><td>{{ org.country || '—' }}</td><td><a v-if="org.website" :href="org.website" target="_blank" rel="noopener">{{ org.website }}</a><span v-else>—</span></td></tr></tbody></table></div></div></template>
+<script setup>
+import { ref, computed, onMounted } from 'vue'; import client from '../api/client'
+const organizations=ref([]), loading=ref(true), error=ref(''), search=ref(''), type=ref('')
+const typeLabels={UNIVERSITY:'University',COMPANY:'Company',GOVERNMENT:'Government',NGO:'NGO',OTHER:'Other'}
+const filtered=computed(()=>organizations.value.filter(o=>(!search.value||o.name.toLowerCase().includes(search.value.toLowerCase()))&&(!type.value||o.organization_type===type.value)))
+onMounted(async()=>{try{const {data}=await client.get('/api/organizations/'); organizations.value=Array.isArray(data)?data:(data.results||[])}catch{error.value='Unable to load organizations.'}finally{loading.value=false}})
+</script>
