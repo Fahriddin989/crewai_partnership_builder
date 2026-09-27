@@ -15,10 +15,29 @@ class AuditModelViewSet(viewsets.ModelViewSet):
     permission_classes = [PartnershipPermission]
 
     def perform_create(self, serializer):
-        serializer.save(created_by=self.request.user, updated_by=self.request.user)
+        model = serializer.Meta.model
+        field_names = {field.name for field in model._meta.fields}
+
+        save_kwargs = {}
+
+        if "created_by" in field_names:
+            save_kwargs["created_by"] = self.request.user
+
+        if "updated_by" in field_names:
+            save_kwargs["updated_by"] = self.request.user
+
+        serializer.save(**save_kwargs)
 
     def perform_update(self, serializer):
-        serializer.save(updated_by=self.request.user)
+        model = serializer.Meta.model
+        field_names = {field.name for field in model._meta.fields}
+
+        save_kwargs = {}
+
+        if "updated_by" in field_names:
+            save_kwargs["updated_by"] = self.request.user
+
+        serializer.save(**save_kwargs)
 
 
 class OrganizationViewSet(AuditModelViewSet):

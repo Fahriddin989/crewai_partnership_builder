@@ -35,7 +35,7 @@ def main():
         path=Path(a.file); path=path if path.is_absolute() else ROOT/path; req=path.read_text(encoding="utf-8").strip()
     else: req=" ".join(a.prompt).strip()
     if not req: req=input("Describe iteration:\n> ").strip()
-    print(f"\nMODEL={os.getenv('MODEL','openai/gpt-5.6-terra')} | 1 agent | no manager | no planning | max_iter=12\n")
+    print(f"\nMODEL={os.getenv('MODEL','openai/gpt-5.6-terra')} | 1 agent | no manager | no planning | max_iter=20\n")
     crew=build_crew(req)
     try: result=crew.kickoff()
     except KeyboardInterrupt: raise SystemExit(130)
