@@ -2,10 +2,14 @@ import { createRouter, createWebHistory } from 'vue-router'
 import { useAuthStore } from '../stores/auth'
 import LoginView from '../views/LoginView.vue'
 import OrganizationsView from '../views/OrganizationsView.vue'
+import OrganizationDetailView from '../views/OrganizationDetailView.vue'
+import AgreementDetailView from '../views/AgreementDetailView.vue'
 
 const router = createRouter({ history: createWebHistory(), routes: [
   { path: '/login', component: LoginView, meta: { guest: true } },
   { path: '/organizations', component: OrganizationsView, meta: { requiresAuth: true } },
+  { path: '/organizations/:id', component: OrganizationDetailView, meta: { requiresAuth: true } },
+  { path: '/agreements/:id', component: AgreementDetailView, meta: { requiresAuth: true } },
   { path: '/', redirect: '/organizations' },
 ]})
 router.beforeEach((to) => {

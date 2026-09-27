@@ -2,7 +2,10 @@ from __future__ import annotations
 import argparse, json, os, subprocess, sys
 from pathlib import Path
 from dotenv import load_dotenv
-from orchestrator import build_crew
+from orchestrator import MAX_ITER, build_crew
+
+
+
 ROOT=Path(__file__).resolve().parent
 RATES={
  "openai/gpt-5.6-luna":(0.20,0.02,1.20),
@@ -35,7 +38,11 @@ def main():
         path=Path(a.file); path=path if path.is_absolute() else ROOT/path; req=path.read_text(encoding="utf-8").strip()
     else: req=" ".join(a.prompt).strip()
     if not req: req=input("Describe iteration:\n> ").strip()
-    print(f"\nMODEL={os.getenv('MODEL','openai/gpt-5.6-terra')} | 1 agent | no manager | no planning | max_iter=20\n")
+    print(
+        f"\nMODEL={os.getenv('MODEL', 'openai/gpt-5.6-terra')} "
+        f"| 1 agent | no manager | no planning "
+        f"| max_iter={MAX_ITER}\n"
+    )
     crew=build_crew(req)
     try: result=crew.kickoff()
     except KeyboardInterrupt: raise SystemExit(130)

@@ -14,30 +14,20 @@ from .serializers import (
 class AuditModelViewSet(viewsets.ModelViewSet):
     permission_classes = [PartnershipPermission]
 
-    def perform_create(self, serializer):
-        model = serializer.Meta.model
-        field_names = {field.name for field in model._meta.fields}
-
-        save_kwargs = {}
-
-        if "created_by" in field_names:
-            save_kwargs["created_by"] = self.request.user
-
+    def _audit_kwargs(self, serializer, *, creating=False):
+        field_names = {field.name for field in serializer.Meta.model._meta.fields}
+        kwargs = {}
+        if creating and "created_by" in field_names:
+            kwargs["created_by"] = self.request.user
         if "updated_by" in field_names:
-            save_kwargs["updated_by"] = self.request.user
+            kwargs["updated_by"] = self.request.user
+        return kwargs
 
-        serializer.save(**save_kwargs)
+    def perform_create(self, serializer):
+        serializer.save(**self._audit_kwargs(serializer, creating=True))
 
     def perform_update(self, serializer):
-        model = serializer.Meta.model
-        field_names = {field.name for field in model._meta.fields}
-
-        save_kwargs = {}
-
-        if "updated_by" in field_names:
-            save_kwargs["updated_by"] = self.request.user
-
-        serializer.save(**save_kwargs)
+        serializer.save(**self._audit_kwargs(serializer))
 
 
 class OrganizationViewSet(AuditModelViewSet):
@@ -49,6 +39,13 @@ class AgreementViewSet(AuditModelViewSet):
     queryset = Agreement.objects.all()
     serializer_class = AgreementSerializer
 
+    def get_queryset(self):
+        queryset = super().get_queryset()
+        organization_id = self.request.query_params.get("organization")
+        if organization_id:
+            queryset = queryset.filter(organization_id=organization_id)
+        return queryset
+
 
 class ContactViewSet(AuditModelViewSet):
     queryset = Contact.objects.all()
@@ -59,11 +56,25 @@ class AgreementContactViewSet(AuditModelViewSet):
     queryset = AgreementContact.objects.all()
     serializer_class = AgreementContactSerializer
 
+    def get_queryset(self):
+        queryset = super().get_queryset()
+        agreement_id = self.request.query_params.get("agreement")
+        if agreement_id:
+            queryset = queryset.filter(agreement_id=agreement_id)
+        return queryset
+
 
 class DocumentViewSet(AuditModelViewSet):
     queryset = Document.objects.all()
     serializer_class = DocumentSerializer
     parser_classes = [MultiPartParser, FormParser, JSONParser]
+
+    def get_queryset(self):
+        queryset = super().get_queryset()
+        agreement_id = self.request.query_params.get("agreement")
+        if agreement_id:
+            queryset = queryset.filter(agreement_id=agreement_id)
+        return queryset
 
     def perform_create(self, serializer):
         serializer.save(uploaded_by=self.request.user)
@@ -72,6 +83,13 @@ class DocumentViewSet(AuditModelViewSet):
 class ActivityViewSet(AuditModelViewSet):
     queryset = Activity.objects.all()
     serializer_class = ActivitySerializer
+
+    def get_queryset(self):
+        queryset = super().get_queryset()
+        agreement_id = self.request.query_params.get("agreement")
+        if agreement_id:
+            queryset = queryset.filter(agreement_id=agreement_id)
+        return queryset
 
 
 class PublicOrganizationViewSet(viewsets.ReadOnlyModelViewSet):
@@ -85,7 +103,4 @@ class MeView(APIView):
 
     def get(self, request):
         user = request.user
-        return Response({
-            "id": user.id, "username": user.username, "first_name": user.first_name,
-            "last_name": user.last_name, "email": user.email,
-        })
+        return Response({"id": user.id, "username": user.username, "first_name": user.first_name, "last_name": user.last_name, "email": user.email})

@@ -1,0 +1,40 @@
+<template>
+  <div>
+    <p v-if="loading">Loading agreement…</p>
+    <p v-else-if="error" class="error">{{ error }}</p>
+    <template v-else>
+      <RouterLink :to="`/organizations/${agreement.organization}`">← Back to Organization</RouterLink>
+      <div class="page-heading"><h1>{{ agreement.title }}</h1><p>{{ typeLabel }} · <span class="status-badge">{{ statusLabel }}</span></p></div>
+      <div class="detail-card agreement-meta"><p><strong>Organization:</strong> {{ organizationName }}</p><p><strong>Signed date:</strong> {{ agreement.signed_date || '—' }}</p><p><strong>Start date:</strong> {{ agreement.start_date || '—' }}</p><p><strong>Expiration date:</strong> {{ agreement.expiration_date || '—' }}</p></div>
+
+      <h2>Overview</h2><div class="detail-card">{{ agreement.description || 'No description recorded.' }}</div>
+      <h2>Contacts</h2><div v-if="contacts.length" class="contact-groups"><div v-for="group in contactGroups" :key="group.label"><h3>{{ group.label }}</h3><div v-if="group.items.length" class="detail-card contact-list"><div v-for="contact in group.items" :key="contact.id" class="contact-row"><strong>{{ contact.contact_name }}</strong><span>{{ contact.contact_position || '—' }}</span><span>{{ contact.contact_email || '—' }}</span><span>{{ contact.contact_phone || '—' }}</span><span>{{ contact.role || '—' }}<small v-if="contact.is_primary"> · Primary</small></span></div></div><p v-else class="empty">No contacts recorded.</p></div></div><p v-else class="empty">No contacts recorded.</p>
+      <h2>Documents</h2><div v-if="documents.length" class="detail-card"><div v-for="document in documents" :key="document.id" class="list-row"><strong>{{ document.title }}</strong><span>{{ document.document_type || '—' }}</span><span>{{ formatDate(document.uploaded_at) }}</span><a :href="document.file" target="_blank" rel="noopener">Open file</a></div></div><p v-else class="empty">No documents recorded.</p>
+      <h2>Activities</h2><div v-if="activities.length" class="detail-card"><div v-for="activity in sortedActivities" :key="activity.id" class="list-row activity"><strong>{{ formatDate(activity.activity_date) }}</strong><span>{{ activityType(activity.activity_type) }}</span><span>{{ activity.title || '—' }}</span><p v-if="activity.description">{{ activity.description }}</p></div></div><p v-else class="empty">No activities recorded.</p>
+    </template>
+  </div>
+</template>
+<script setup>
+import { ref, computed, onMounted } from 'vue'
+import { useRoute } from 'vue-router'
+import client from '../api/client'
+import { AGREEMENT_TYPE_LABELS, AGREEMENT_STATUS_LABELS } from '../constants/partnerships'
+const route = useRoute(), agreement = ref(null), contacts = ref([]), documents = ref([]), activities = ref([]), loading = ref(true), error = ref('')
+const typeLabel = computed(() => AGREEMENT_TYPE_LABELS[agreement.value?.agreement_type] || agreement.value?.agreement_type)
+const statusLabel = computed(() => AGREEMENT_STATUS_LABELS[agreement.value?.status] || agreement.value?.status)
+const organizationName = computed(() => agreement.value?.organization_name || agreement.value?.organization)
+const contactGroups = computed(() => [{ label: 'Our side', items: contacts.value.filter(c => c.side === 'OUR_SIDE') }, { label: 'Partner side', items: contacts.value.filter(c => c.side === 'PARTNER_SIDE') }])
+const sortedActivities = computed(() => [...activities.value].sort((a, b) => new Date(b.activity_date) - new Date(a.activity_date)))
+const formatDate = value => value ? new Date(value).toLocaleDateString() : '—'
+const activityType = value => ({ NOTE: 'Note', MEETING: 'Meeting', EMAIL: 'Email', CALL: 'Call', STATUS_CHANGE: 'Status change', OTHER: 'Other' }[value] || value)
+onMounted(async () => {
+  try {
+    const id = route.params.id
+    const responses = await Promise.all([client.get(`/api/agreements/${id}/`), client.get('/api/agreement-contacts/', { params: { agreement: id } }), client.get('/api/documents/', { params: { agreement: id } }), client.get('/api/activities/', { params: { agreement: id } })])
+    agreement.value = responses[0].data
+    contacts.value = Array.isArray(responses[1].data) ? responses[1].data : responses[1].data.results || []
+    documents.value = Array.isArray(responses[2].data) ? responses[2].data : responses[2].data.results || []
+    activities.value = Array.isArray(responses[3].data) ? responses[3].data : responses[3].data.results || []
+  } catch (err) { error.value = err.response?.status === 404 ? 'Agreement not found.' : 'Unable to load agreement.' } finally { loading.value = false }
+})
+</script>
