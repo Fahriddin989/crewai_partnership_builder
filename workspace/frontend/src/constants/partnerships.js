@@ -10,3 +10,7 @@ export const AGREEMENT_TYPE_LABELS = {
 export const AGREEMENT_STATUS_LABELS = {
   DRAFT: 'Draft', ACTIVE: 'Active', INACTIVE: 'Inactive', EXPIRED: 'Expired', UNDER_RENEWAL: 'Under renewal',
 }
+
+export const ACTIVITY_TYPE_LABELS = {
+  NOTE: 'Note', MEETING: 'Meeting', EMAIL: 'Email', CALL: 'Call', STATUS_CHANGE: 'Status change', OTHER: 'Other',
+}
