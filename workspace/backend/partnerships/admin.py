@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Activity, Agreement, AgreementContact, Contact, Document, Organization
+from .models import Activity, Agreement, AgreementContact, Contact, Document, Organization, OrganizationMedia
 
 class AgreementInline(admin.TabularInline):
     model = Agreement; extra = 0; fields = ("title", "agreement_type", "status", "signed_date", "start_date", "expiration_date"); show_change_link = True
@@ -25,6 +25,14 @@ class AgreementContactAdmin(admin.ModelAdmin):
 @admin.register(Document)
 class DocumentAdmin(admin.ModelAdmin):
     list_display = ("title", "agreement", "document_type", "uploaded_by", "uploaded_at"); list_filter = ("document_type", "uploaded_at", "agreement__status"); search_fields = ("title", "document_type", "agreement__title", "agreement__organization__name", "description"); list_select_related = ("agreement", "uploaded_by"); autocomplete_fields = ("agreement", "uploaded_by"); readonly_fields = ("uploaded_at",); date_hierarchy = "uploaded_at"
+@admin.register(OrganizationMedia)
+class OrganizationMediaAdmin(admin.ModelAdmin):
+    list_display = ("title", "organization", "is_public", "uploaded_by", "uploaded_at")
+    list_filter = ("organization", "is_public")
+    search_fields = ("title", "organization__name", "description")
+    list_select_related = ("organization", "uploaded_by")
+    autocomplete_fields = ("organization", "uploaded_by")
+    readonly_fields = ("uploaded_at",)
 @admin.register(Activity)
 class ActivityAdmin(admin.ModelAdmin):
     list_display = ("agreement", "title", "activity_type", "activity_date", "created_by", "updated_by", "created_at"); list_filter = ("activity_type", "activity_date", "agreement__status"); search_fields = ("agreement__title", "title", "agreement__organization__name", "description"); list_select_related = ("agreement", "created_by", "updated_by"); autocomplete_fields = ("agreement", "created_by", "updated_by"); readonly_fields = ("created_at", "updated_at"); date_hierarchy = "activity_date"; ordering = ("-activity_date", "-created_at")
