@@ -3,3 +3,5 @@ djangorestframework>=3.14,<3.16
 djangorestframework-simplejwt>=5.3,<6
 django-cors-headers>=4.4,<5
 Pillow>=10.0
+gunicorn>=22,<24
+psycopg[binary]>=3.2,<4

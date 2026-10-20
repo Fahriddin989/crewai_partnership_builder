@@ -1,8 +1,11 @@
 """Routing for the partnerships API."""
 from rest_framework.routers import DefaultRouter
-from .views import ActivityViewSet, AgreementContactViewSet, AgreementViewSet, ContactViewSet, DocumentViewSet, OrganizationMediaViewSet, OrganizationViewSet, PublicOrganizationViewSet
+from .views import ActivityViewSet, AcademicUnitViewSet, AgreementContactViewSet, AgreementViewSet, ContactViewSet, DocumentViewSet, OrganizationMediaViewSet, OrganizationNoteAttachmentViewSet, OrganizationNoteViewSet, OrganizationViewSet, PublicOrganizationViewSet
 router = DefaultRouter()
 router.register("organizations", OrganizationViewSet, basename="organization")
+router.register("academic-units", AcademicUnitViewSet, basename="academic-unit")
+router.register("organization-notes", OrganizationNoteViewSet, basename="organization-note")
+router.register("organization-note-attachments", OrganizationNoteAttachmentViewSet, basename="organization-note-attachment")
 router.register("agreements", AgreementViewSet, basename="agreement")
 router.register("contacts", ContactViewSet, basename="contact")
 router.register("agreement-contacts", AgreementContactViewSet, basename="agreement-contact")

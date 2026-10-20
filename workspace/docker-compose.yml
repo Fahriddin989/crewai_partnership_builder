@@ -1,0 +1,51 @@
+services:
+  db:
+    image: postgres:16-alpine
+    env_file:
+      - .env.docker
+    volumes:
+      - partnership_postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $$POSTGRES_USER -d $$POSTGRES_DB"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    restart: unless-stopped
+
+  backend:
+    build: ./backend
+    env_file:
+      - .env.docker
+    environment:
+      DB_HOST: db
+      DB_PORT: 5432
+    depends_on:
+      db:
+        condition: service_healthy
+    expose:
+      - "8000"
+    ports:
+      - "127.0.0.1:8001:8000"
+    volumes:
+      - partnership_media:/app/media
+      - partnership_static:/app/staticfiles
+    restart: unless-stopped
+
+  frontend:
+    build: ./frontend
+    depends_on:
+      - backend
+    ports:
+      - "127.0.0.1:8081:80"
+    volumes:
+      - partnership_media:/shared/media:ro
+      - partnership_static:/shared/static:ro
+    restart: unless-stopped
+
+volumes:
+  partnership_postgres_data:
+    name: partnership_postgres_data
+  partnership_media:
+    name: partnership_media
+  partnership_static:
+    name: partnership_static

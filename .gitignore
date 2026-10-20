@@ -5,3 +5,4 @@ __pycache__/
 workspace/.venv/
 workspace/backend/.venv/
 workspace/frontend/node_modules/
+workspace/.env.docker

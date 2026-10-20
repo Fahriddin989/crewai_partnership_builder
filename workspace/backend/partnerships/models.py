@@ -14,6 +14,18 @@ class TimeStampedModel(models.Model):
         abstract = True
 
 
+class AcademicUnit(TimeStampedModel):
+    name = models.CharField(max_length=255)
+    is_active = models.BooleanField(default=True)
+
+    class Meta:
+        ordering = ["-is_active", "name"]
+        verbose_name = "Direction"
+        verbose_name_plural = "Directions"
+
+    def __str__(self): return self.name
+
+
 class Organization(TimeStampedModel):
     class OrganizationType(models.TextChoices):
         UNIVERSITY = "UNIVERSITY", "University"
@@ -29,7 +41,54 @@ class Organization(TimeStampedModel):
     is_public = models.BooleanField(default=True)
     created_by = user_foreign_key("created_organizations")
     updated_by = user_foreign_key("updated_organizations")
+    academic_units = models.ManyToManyField(AcademicUnit, through="OrganizationAcademicUnit", related_name="organizations")
     def __str__(self): return self.name
+
+
+class OrganizationAcademicUnit(models.Model):
+    organization = models.ForeignKey(Organization, on_delete=models.CASCADE)
+    academic_unit = models.ForeignKey(AcademicUnit, on_delete=models.CASCADE)
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        constraints = [models.UniqueConstraint(fields=["organization", "academic_unit"], name="unique_organization_academic_unit")]
+
+    def __str__(self): return f"{self.organization} — {self.academic_unit}"
+
+
+class OrganizationNote(TimeStampedModel):
+    organization = models.ForeignKey(Organization, on_delete=models.CASCADE, related_name="notes")
+    body = models.TextField()
+    next_step = models.TextField(blank=True)
+    follow_up_date = models.DateField(null=True, blank=True)
+    created_by = user_foreign_key("created_organization_notes")
+    updated_by = user_foreign_key("updated_organization_notes")
+
+    class Meta:
+        ordering = ["-created_at", "-pk"]
+
+    def __str__(self): return f"Note for {self.organization}"
+
+
+def organization_note_attachment_upload_path(instance, filename):
+    return f"organization_notes/{instance.note.organization_id}/{instance.note_id}/{filename}"
+
+
+class OrganizationNoteAttachment(models.Model):
+    note = models.ForeignKey(OrganizationNote, on_delete=models.CASCADE, related_name="attachments")
+    file = models.FileField(upload_to=organization_note_attachment_upload_path)
+    original_name = models.CharField(max_length=255)
+    uploaded_by = user_foreign_key("uploaded_organization_note_attachments")
+    uploaded_at = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self): return self.original_name
+
+    def delete(self, *args, **kwargs):
+        storage, name = self.file.storage, self.file.name
+        result = super().delete(*args, **kwargs)
+        if name:
+            storage.delete(name)
+        return result
 
 
 class Agreement(TimeStampedModel):

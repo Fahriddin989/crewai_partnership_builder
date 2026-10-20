@@ -1,14 +1,69 @@
+from django.db import transaction
 from rest_framework import serializers
-from .models import Activity, Agreement, AgreementContact, Contact, Document, Organization, OrganizationMedia
+from .models import Activity, AcademicUnit, Agreement, AgreementContact, Contact, Document, Organization, OrganizationAcademicUnit, OrganizationMedia, OrganizationNote, OrganizationNoteAttachment
 
 AUDIT_READ_ONLY_FIELDS = ["id", "created_by", "updated_by", "created_at", "updated_at"]
 TIMESTAMP_READ_ONLY_FIELDS = ["id", "created_at", "updated_at"]
 
+class AcademicUnitSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = AcademicUnit
+        fields = ["id", "name", "is_active", "created_at", "updated_at"]
+        read_only_fields = TIMESTAMP_READ_ONLY_FIELDS
+
+class OrganizationAcademicUnitSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = OrganizationAcademicUnit
+        fields = ["id", "organization", "academic_unit", "created_at"]
+        read_only_fields = ["id", "created_at"]
+
 class OrganizationSerializer(serializers.ModelSerializer):
+    academic_units = AcademicUnitSerializer(many=True, read_only=True)
+    academic_unit_ids = serializers.PrimaryKeyRelatedField(many=True, queryset=AcademicUnit.objects.all(), write_only=True, required=False)
     class Meta:
         model = Organization
-        fields = ["id", "name", "organization_type", "country", "website", "description", "is_public", "created_by", "updated_by", "created_at", "updated_at"]
-        read_only_fields = AUDIT_READ_ONLY_FIELDS
+        fields = ["id", "name", "organization_type", "country", "website", "description", "is_public", "created_by", "updated_by", "created_at", "updated_at", "academic_units", "academic_unit_ids"]
+        read_only_fields = AUDIT_READ_ONLY_FIELDS + ["academic_units"]
+
+    @transaction.atomic
+    def create(self, validated_data):
+        units = validated_data.pop("academic_unit_ids", None)
+        organization = super().create(validated_data)
+        if units is not None:
+            OrganizationAcademicUnit.objects.bulk_create([OrganizationAcademicUnit(organization=organization, academic_unit=unit) for unit in units])
+        return organization
+
+    @transaction.atomic
+    def update(self, instance, validated_data):
+        units = validated_data.pop("academic_unit_ids", None)
+        organization = super().update(instance, validated_data)
+        if units is not None:
+            OrganizationAcademicUnit.objects.filter(organization=organization).exclude(academic_unit__in=units).delete()
+            existing = set(OrganizationAcademicUnit.objects.filter(organization=organization, academic_unit__in=units).values_list("academic_unit_id", flat=True))
+            OrganizationAcademicUnit.objects.bulk_create([OrganizationAcademicUnit(organization=organization, academic_unit=unit) for unit in units if unit.pk not in existing])
+        return organization
+
+class OrganizationNoteSerializer(serializers.ModelSerializer):
+    created_by_name = serializers.SerializerMethodField()
+    class Meta:
+        model = OrganizationNote
+        fields = ["id", "organization", "body", "next_step", "follow_up_date", "created_by", "created_by_name", "updated_by", "created_at", "updated_at"]
+        read_only_fields = ["id", "created_by", "created_by_name", "updated_by", "created_at", "updated_at"]
+    def get_created_by_name(self, obj):
+        user = obj.created_by
+        if not user: return ""
+        return f"{user.first_name} {user.last_name}".strip() or user.username
+
+class OrganizationNoteAttachmentSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = OrganizationNoteAttachment
+        fields = ["id", "note", "file", "original_name", "uploaded_by", "uploaded_at"]
+        read_only_fields = ["id", "original_name", "uploaded_by", "uploaded_at"]
+
+    def create(self, validated_data):
+        uploaded = validated_data["file"]
+        validated_data["original_name"] = uploaded.name
+        return super().create(validated_data)
 
 class PublicOrganizationSerializer(serializers.ModelSerializer):
     class Meta:

@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Activity, Agreement, AgreementContact, Contact, Document, Organization, OrganizationMedia
+from .models import Activity, AcademicUnit, Agreement, AgreementContact, Contact, Document, Organization, OrganizationAcademicUnit, OrganizationMedia, OrganizationNote
 
 class AgreementInline(admin.TabularInline):
     model = Agreement; extra = 0; fields = ("title", "agreement_type", "status", "signed_date", "start_date", "expiration_date"); show_change_link = True
@@ -9,6 +9,26 @@ class DocumentInline(admin.TabularInline):
     model = Document; extra = 0; fields = ("title", "document_type", "file", "uploaded_by"); autocomplete_fields = ("uploaded_by",); show_change_link = True
 class ActivityInline(admin.TabularInline):
     model = Activity; extra = 0; fields = ("activity_type", "title", "description", "activity_date", "created_by", "updated_by"); autocomplete_fields = ("created_by", "updated_by"); show_change_link = True
+
+@admin.register(AcademicUnit)
+class AcademicUnitAdmin(admin.ModelAdmin):
+    list_display = ("name", "is_active", "updated_at")
+    list_filter = ("is_active",)
+    search_fields = ("name",)
+
+@admin.register(OrganizationAcademicUnit)
+class OrganizationAcademicUnitAdmin(admin.ModelAdmin):
+    list_display = ("organization", "academic_unit", "created_at")
+    search_fields = ("organization__name", "academic_unit__name")
+    list_select_related = ("organization", "academic_unit")
+
+@admin.register(OrganizationNote)
+class OrganizationNoteAdmin(admin.ModelAdmin):
+    list_display = ("organization", "body", "follow_up_date", "created_by", "created_at")
+    list_filter = ("follow_up_date", "created_at")
+    search_fields = ("organization__name", "body", "next_step", "created_by__username")
+    list_select_related = ("organization", "created_by")
+    readonly_fields = ("created_at", "updated_at")
 
 @admin.register(Organization)
 class OrganizationAdmin(admin.ModelAdmin):
