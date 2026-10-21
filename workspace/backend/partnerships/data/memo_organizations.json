@@ -1,0 +1,3923 @@
+{
+  "schema_version": 1,
+  "prepared_on": "2026-10-21",
+  "source_folder": "https://drive.google.com/drive/folders/1bEbUKlFfvnQy6PsLWOxf53ihcV-S49or",
+  "source_pdf_count": 150,
+  "source_page_count": 580,
+  "scope": "Organization cards: name, organization_type, country, website, is_public; preserve other existing fields",
+  "organizations": [
+    {
+      "record_key": "memo-001",
+      "name": "Nizomiy nomidagi Toshkent davlat pedagogika universiteti",
+      "organization_type": "UNIVERSITY",
+      "country": "Uzbekistan",
+      "website": "https://npuu.uz/",
+      "description": "Педагогический университет. В документе предусмотрены научные проекты, академический обмен и подготовка педагогических кадров.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [
+        "Nizomiy nomidagi Toshkent davlat pedagogika universiteti"
+      ],
+      "source_documents": [
+        {
+          "title": "Тошкент педагогика институти.pdf",
+          "url": "https://drive.google.com/file/d/1ZNsa5W83t0yxxhKsb8KjGpoIGn7XbWWQ/view?usp=drivesdk",
+          "drive_file_id": "1ZNsa5W83t0yxxhKsb8KjGpoIGn7XbWWQ",
+          "pages": 3,
+          "sha256": "d35f52d062898d83e19293bb201bea0b28d9e43876ba8e6eba4ca4e92d0fd597"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://npuu.uz/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-002",
+      "name": "Qoraqalpogʻiston tabiiy fanlar ilmiy-tadqiqot instituti",
+      "organization_type": "GOVERNMENT",
+      "country": "Uzbekistan",
+      "website": "https://aknuk.uz/uz/qaraqalpaqstan-tabiyiy-panler-ilimiy-izertlew-instituti/",
+      "description": "Институт естественных наук Каракалпакского отделения Академии наук Узбекистана. Предусмотрено научное и инновационное сотрудничество.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "QORAQALPOGISTON TABIIY FANLAR ILMIY-TADQIQOT INSTITUTI.pdf",
+          "url": "https://drive.google.com/file/d/13S6bDkDUM35Edk5FcPB7vmWswW4piS6X/view?usp=drivesdk",
+          "drive_file_id": "13S6bDkDUM35Edk5FcPB7vmWswW4piS6X",
+          "pages": 4,
+          "sha256": "1cdb6269dd211e6216f9a8c8a7428ba4638dc8acb1d3fff18299f62acc4f825e"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_institution_page",
+      "website_evidence_url": "https://aknuk.uz/uz/qaraqalpaqstan-tabiyiy-panler-ilimiy-izertlew-instituti/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-003",
+      "name": "Toshkent farmatsevtika instituti akademik litseyi",
+      "organization_type": "GOVERNMENT",
+      "country": "Uzbekistan",
+      "website": "https://al-pharmi.uz/uz",
+      "description": "Академический лицей при Ташкентском фармацевтическом институте. Сотрудничество в естественных науках, профориентации и преемственности обучения.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Тошкент фармацевтика институти академик лицейи.PDF",
+          "url": "https://drive.google.com/file/d/12lwjxCq2YslmAu6BYL70fUvyrE0_sJJl/view?usp=drivesdk",
+          "drive_file_id": "12lwjxCq2YslmAu6BYL70fUvyrE0_sJJl",
+          "pages": 2,
+          "sha256": "10739b5c56ebfa0f70ebf474a9c1803fb5447e7c33a70ddbc349354de4a776d5"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://al-pharmi.uz/uz",
+      "type_evidence_url": "https://al-pharmi.uz/uz",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-004",
+      "name": "Japanese Language School",
+      "organization_type": "OTHER",
+      "country": "Uzbekistan",
+      "website": "https://drive.google.com/file/d/1jFPMpI2iQS-oIAS4Pm9hX0vz1ZnsbAbG/view?usp=drivesdk",
+      "description": "Языковая школа в Ташкенте. Меморандум предусматривает образовательное сотрудничество, обмен опытом преподавателей и развитие учащихся.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Japanese Language school.PDF",
+          "url": "https://drive.google.com/file/d/1jFPMpI2iQS-oIAS4Pm9hX0vz1ZnsbAbG/view?usp=drivesdk",
+          "drive_file_id": "1jFPMpI2iQS-oIAS4Pm9hX0vz1ZnsbAbG",
+          "pages": 4,
+          "sha256": "c762617e18bafd78681cc07458341e7a6126ffc558b6abab0fe1b60cf0dad785"
+        }
+      ],
+      "review_notes": "Отдельный сайт или однозначно подтверждённый профиль школы не найден. В поле ссылки указан исходный меморандум, а не сайт организации. Доступ к документу определяется его существующими настройками Google Drive.",
+      "ready_for_import": true,
+      "website_kind": "source_document",
+      "website_evidence_url": "https://drive.google.com/file/d/1jFPMpI2iQS-oIAS4Pm9hX0vz1ZnsbAbG/view?usp=drivesdk",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-005",
+      "name": "Mikrokreditbank ATB",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://mkbank.uz/",
+      "description": "Банк. В меморандуме предусмотрены практическая подготовка студентов, стажировки, образовательные и исследовательские инициативы.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [
+        "Mikrokreditbank",
+        "Микрокредитбанк"
+      ],
+      "source_documents": [
+        {
+          "title": "Mikrokreditbank.PDF",
+          "url": "https://drive.google.com/file/d/1NB4k9qJ1HvfuQoOzN4SUn5cb7yVlJVmW/view?usp=drivesdk",
+          "drive_file_id": "1NB4k9qJ1HvfuQoOzN4SUn5cb7yVlJVmW",
+          "pages": 4,
+          "sha256": "79c703d18d4ee1c5e1eed142e9810b3184d3375beaf24c4ac41ee99664f0f97c"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://mkbank.uz/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-006",
+      "name": "Государственная общеобразовательная организация №42 г. Ташкента",
+      "organization_type": "GOVERNMENT",
+      "country": "Uzbekistan",
+      "website": "https://www.goldenpages.uz/company/?Id=49005",
+      "description": "Общеобразовательная школа. Предусмотрены встречи с преподавателями университета, образовательные мероприятия и повышение квалификации.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "42 мактаб.PDF",
+          "url": "https://drive.google.com/file/d/1DlUlLLx-Yjrah8Qo9ftSgT9Gjc-Lo98k/view?usp=drivesdk",
+          "drive_file_id": "1DlUlLLx-Yjrah8Qo9ftSgT9Gjc-Lo98k",
+          "pages": 3,
+          "sha256": "2abfce9b9dc9eaed4aa3a11b2af28bfe5f6602b4efb0617a14cdf3509745c636"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "business_directory_profile",
+      "website_evidence_url": "https://www.goldenpages.uz/company/?Id=49005",
+      "type_evidence_url": "https://www.goldenpages.uz/company/?Id=49005",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-007",
+      "name": "Государственная общеобразовательная организация №273 г. Ташкента",
+      "organization_type": "GOVERNMENT",
+      "country": "Uzbekistan",
+      "website": "https://www.goldenpages.uz/company/?Id=49113",
+      "description": "Общеобразовательная школа. Предусмотрены образовательные мероприятия, взаимодействие преподавателей и работа со школьниками.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "273 мактаб.PDF",
+          "url": "https://drive.google.com/file/d/1m5qcrVYB3OOvGBiFAMbxfHf5Cpj2AOuA/view?usp=drivesdk",
+          "drive_file_id": "1m5qcrVYB3OOvGBiFAMbxfHf5Cpj2AOuA",
+          "pages": 3,
+          "sha256": "8ebec486215f52a3730d66bd9bba05c37e64fda377652ac64d0e0f654289831f"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "business_directory_profile",
+      "website_evidence_url": "https://www.goldenpages.uz/company/?Id=49113",
+      "type_evidence_url": "https://www.goldenpages.uz/company/?Id=49113",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-008",
+      "name": "Harbiy xavfsizlik va mudofaa universitetining Axborot-kommunikatsiya texnologiyalari va harbiy aloqa instituti",
+      "organization_type": "UNIVERSITY",
+      "country": "Uzbekistan",
+      "website": "https://gov.uz/oz/mudofaa/news/view/141845",
+      "description": "Институт информационно-коммуникационных технологий и военной связи. Направления документа: телекоммуникации, кибербезопасность, образование и исследования.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Ўзбекистон Республикаси Ҳарбий хавфсизлик ва мудофаа университетин.PDF",
+          "url": "https://drive.google.com/file/d/1_cmQXDGTy68xMbcPSzYnGHZO8o4gnc_u/view?usp=drivesdk",
+          "drive_file_id": "1_cmQXDGTy68xMbcPSzYnGHZO8o4gnc_u",
+          "pages": 7,
+          "sha256": "116d99de8d6f4fa27f99b2825f5c27dceba5d894089a6638274c56c0a12dc82a"
+        }
+      ],
+      "review_notes": "Сторона документа — институт в составе университета военной безопасности и обороны, а не весь университет.",
+      "ready_for_import": true,
+      "website_kind": "official_institution_reference",
+      "website_evidence_url": "https://gov.uz/oz/mudofaa/news/view/141845",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-009",
+      "name": "SULTON MEDPHARM MChJ",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://orginfo.uz/ru/organization/2516be2c7938/",
+      "description": "Организация фармацевтического профиля. В договоре предусмотрены научные исследования, подготовка кадров и обмен опытом.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "SULTON MEDPHARM.pdf",
+          "url": "https://drive.google.com/file/d/19-eqo7vnj3rC_1VHau6GOBqJQEgp0Q8q/view?usp=drivesdk",
+          "drive_file_id": "19-eqo7vnj3rC_1VHau6GOBqJQEgp0Q8q",
+          "pages": 2,
+          "sha256": "088abb5318691f37db38adb2617ef658d89a13a5f16cbe8c6b1c1c0873ba89c8"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "organization_registry_profile",
+      "website_evidence_url": "https://orginfo.uz/ru/organization/2516be2c7938/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-010",
+      "name": "Asia Alliance Bank ATB",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://aab.uz/uz/",
+      "description": "Банк. Документ охватывает подготовку кадров, практику студентов, образовательное и научное сотрудничество.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [
+        "Asia Alliance Bank"
+      ],
+      "source_documents": [
+        {
+          "title": "Asia Alliance Bank meme.PDF",
+          "url": "https://drive.google.com/file/d/19Ee3iHOnmmX7er86-EhEstLJAkfs4cSG/view?usp=drivesdk",
+          "drive_file_id": "19Ee3iHOnmmX7er86-EhEstLJAkfs4cSG",
+          "pages": 6,
+          "sha256": "2f5f436dc472786034ec0960234654f03ae0cf2c6a97434b0c855128e8e74137"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://aab.uz/uz/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-011",
+      "name": "Oʻzbekiston Respublikasi Mudofaa vazirligi",
+      "organization_type": "GOVERNMENT",
+      "country": "Uzbekistan",
+      "website": "https://gov.uz/oz/mudofaa",
+      "description": "Министерство обороны Узбекистана. Меморандум охватывает образование и исследования в области ИИ, робототехники, цифровых технологий и кибербезопасности.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Mudofaa vazirligi.PDF",
+          "url": "https://drive.google.com/file/d/1FZKm2XYG-6K696EeQ4GQ1iEIK5AOT4lf/view?usp=drivesdk",
+          "drive_file_id": "1FZKm2XYG-6K696EeQ4GQ1iEIK5AOT4lf",
+          "pages": 8,
+          "sha256": "83aa8ebdd75616280de315cde5aa3acd0e2e6b2a40f7f56866d59ea13ff94207"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://gov.uz/oz/mudofaa",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-012",
+      "name": "Uzbekistan Creative Association",
+      "organization_type": "NGO",
+      "country": "Uzbekistan",
+      "website": "https://t.me/s/Uzbekistan_Creative_Association",
+      "description": "Негосударственная некоммерческая ассоциация. Предусмотрены инициативы в игровой индустрии, анимации, дизайне, цифровом контенте и развитии талантов.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [
+        "Uzbekistan Creative Association",
+        "UzCA"
+      ],
+      "source_documents": [
+        {
+          "title": "UZBEKISTAN CREATIVE ASSOCIATION.PDF",
+          "url": "https://drive.google.com/file/d/1URW1kbqNPK61oEOnNx9aVgT8iU2Fco6S/view?usp=drivesdk",
+          "drive_file_id": "1URW1kbqNPK61oEOnNx9aVgT8iU2Fco6S",
+          "pages": 8,
+          "sha256": "8e8d103a60de31f62c1e64d3bdb6c7258861f5273161dd88889471b6286da7ee"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_social_profile",
+      "website_evidence_url": "https://t.me/s/Uzbekistan_Creative_Association",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-013",
+      "name": "MENTAL ACADEMY KIDS NTM (Grant Edu)",
+      "organization_type": "OTHER",
+      "country": "Uzbekistan",
+      "website": "https://orginfo.uz/ru/organization/20ca4e200223/",
+      "description": "Негосударственное образовательное учреждение под брендом Grant Edu. Предусмотрено сотрудничество в привлечении абитуриентов и образовательных проектах.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "MENTAL ACADEMY KIDS.PDF",
+          "url": "https://drive.google.com/file/d/1NrwK7ylsG896Bx6Ct7K75FmSBuq_iJV9/view?usp=drivesdk",
+          "drive_file_id": "1NrwK7ylsG896Bx6Ct7K75FmSBuq_iJV9",
+          "pages": 5,
+          "sha256": "b334174b74fc8ee7c5edb240790d161ba60d09144b939e244ef28c6a235be044"
+        }
+      ],
+      "review_notes": "Grant Edu указан как бренд учреждения Mental Academy Kids.",
+      "ready_for_import": true,
+      "website_kind": "organization_registry_profile",
+      "website_evidence_url": "https://orginfo.uz/ru/organization/20ca4e200223/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-014",
+      "name": "Aloqa Ventures-2 MChJ",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://www.aloqaventures.uz/",
+      "description": "Организация — сторона меморандума о совместных проектах и партнерстве. Финансовые обязательства по документу требуют отдельных договоров.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [
+        "Aloqa Ventures-2"
+      ],
+      "source_documents": [
+        {
+          "title": "Aloqa Ventures.PDF",
+          "url": "https://drive.google.com/file/d/1gk5yvtKGOQFAcTIjaa4XOTxoFuYEr_-o/view?usp=drivesdk",
+          "drive_file_id": "1gk5yvtKGOQFAcTIjaa4XOTxoFuYEr_-o",
+          "pages": 4,
+          "sha256": "7969fd6c0dd4ac470595eb5c4c6f3d8f40d2502a464bdc5fbc695e8f0d07d647"
+        }
+      ],
+      "review_notes": "В документе указано Aloqa Ventures-2, не головная организация под общим брендом Aloqa Ventures.",
+      "ready_for_import": true,
+      "website_kind": "brand_website",
+      "website_evidence_url": "https://www.aloqaventures.uz/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-015",
+      "name": "IIV «Texnik servis koʻrsatish ofisi» davlat muassasasi",
+      "organization_type": "GOVERNMENT",
+      "country": "Uzbekistan",
+      "website": "https://gov.uz/oz/iiv/news/view/199573",
+      "description": "Государственное учреждение МВД Узбекистана. Сотрудничество в подготовке кадров, повышении квалификации и применении технологических разработок.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Texnik servis ofisi.PDF",
+          "url": "https://drive.google.com/file/d/15OINojtFl5ejYzimgyuuumsXGMDLwJzs/view?usp=drivesdk",
+          "drive_file_id": "15OINojtFl5ejYzimgyuuumsXGMDLwJzs",
+          "pages": 7,
+          "sha256": "45a071c7425e62d95fc8bf6f7e0656ca30656f76d2e591d826d45570fcf6a71f"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_institution_reference",
+      "website_evidence_url": "https://gov.uz/oz/iiv/news/view/199573",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-016",
+      "name": "Adliya vazirligi huzuridagi «Intellektual mulk markazi»",
+      "organization_type": "GOVERNMENT",
+      "country": "Uzbekistan",
+      "website": "https://www.ipcenter.uz",
+      "description": "Государственный центр интеллектуальной собственности. Соглашение предусматривает поддержку технологий и инноваций, консультации и развитие компетенций в интеллектуальной собственности.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Intellektual mulk markazi.PDF",
+          "url": "https://drive.google.com/file/d/16IWS87j8Z_tkaqXn3GYcnl43FfwtnWgl/view?usp=drivesdk",
+          "drive_file_id": "16IWS87j8Z_tkaqXn3GYcnl43FfwtnWgl",
+          "pages": 5,
+          "sha256": "bbdf3a1e6c17d8206865499591665233d7aca48793ba11031628c0f593e5c472"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "document_website",
+      "website_evidence_url": "https://drive.google.com/file/d/16IWS87j8Z_tkaqXn3GYcnl43FfwtnWgl/view?usp=drivesdk",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-017",
+      "name": "Ассоциация «IT ALLIANCE SWS»",
+      "organization_type": "NGO",
+      "country": "Uzbekistan",
+      "website": "https://italliance.uz/",
+      "description": "Ассоциация продавцов программного обеспечения и ИТ-сервисов. Договор предусматривает образовательное партнерство, экспертные и карьерные мероприятия.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [
+        "IT ALLIANCE SWS"
+      ],
+      "source_documents": [
+        {
+          "title": "IT ALLIANCE SWS.PDF",
+          "url": "https://drive.google.com/file/d/1-1Xphxtjz3CFA_W6h8BG1OUfJxl9FtZs/view?usp=drivesdk",
+          "drive_file_id": "1-1Xphxtjz3CFA_W6h8BG1OUfJxl9FtZs",
+          "pages": 5,
+          "sha256": "bb2cb128406bbd7bf58ab38827eea5147d99fb26ace3ca83c5924cfd24659cf3"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://italliance.uz/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-018",
+      "name": "AK-K FUTURE MChJ",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://www.icef.com/agency/0016M00002cQZWCQA4/",
+      "description": "Учебный центр. Предусмотрены привлечение абитуриентов, совместные образовательные проекты и содействие занятости молодежи.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "AK-K Future ўқув маркази.PDF",
+          "url": "https://drive.google.com/file/d/1x9uJwClqxVIwLIjQ-71Tg3OkyzdebLSc/view?usp=drivesdk",
+          "drive_file_id": "1x9uJwClqxVIwLIjQ-71Tg3OkyzdebLSc",
+          "pages": 5,
+          "sha256": "73e9a41f8df9ed80b3beef5e5956efc8319774048c0b69acebc8421d37c2d174"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "accreditation_profile",
+      "website_evidence_url": "https://www.icef.com/agency/0016M00002cQZWCQA4/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-019",
+      "name": "Qayta tiklanuvchi energiya manbalari milliy ilmiy-tadqiqot instituti",
+      "organization_type": "GOVERNMENT",
+      "country": "Uzbekistan",
+      "website": "https://nires.uz/",
+      "description": "Национальный НИИ возобновляемых источников энергии при Министерстве энергетики Узбекистана. Предусмотрены научно-техническое сотрудничество и обмен опытом.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Qayta tiklanuvchi energiya manbalari milliy ilmiy-tadqiqot instituti.PDF",
+          "url": "https://drive.google.com/file/d/1cD6tUWJpxCp0tvsWUBmSQnmYQ47yxFtJ/view?usp=drivesdk",
+          "drive_file_id": "1cD6tUWJpxCp0tvsWUBmSQnmYQ47yxFtJ",
+          "pages": 4,
+          "sha256": "264ae34d0f9bbaf8a31b339ba415323b8d3012122481af40779a702200351521"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://nires.uz/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-020",
+      "name": "Chirchiq innovatsion tibbiyot va salomatlik texnikumi",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://nqaae.uz/uz/vocational/310916562",
+      "description": "Медицинский техникум. Меморандум посвящен сотрудничеству и продолжению обучения выпускников техникума в университете.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Chirchiq innovatsion tibbiyot va salomatlik texnikumi.PDF",
+          "url": "https://drive.google.com/file/d/15wiUqziuTP-RspKNMLvpo65nNsKQNLzJ/view?usp=drivesdk",
+          "drive_file_id": "15wiUqziuTP-RspKNMLvpo65nNsKQNLzJ",
+          "pages": 6,
+          "sha256": "8e54a133655b317dfa6809f82ccbc5cafa66681ce87631c588c9a710818d60a0"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_education_registry",
+      "website_evidence_url": "https://nqaae.uz/uz/vocational/310916562",
+      "type_evidence_url": "https://nqaae.uz/uz/vocational/310916562",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-021",
+      "name": "Zuhra Fashion School",
+      "organization_type": "OTHER",
+      "country": "Uzbekistan",
+      "website": "https://drive.google.com/file/d/1bWgIawvdBVYPMNFYFd-Y5010zXTnOy2Y/view?usp=drivesdk",
+      "description": "Школа моды. Договор предусматривает привлечение абитуриентов, образовательные проекты и развитие профессиональных навыков.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Zuhra Fashion School.PDF",
+          "url": "https://drive.google.com/file/d/1bWgIawvdBVYPMNFYFd-Y5010zXTnOy2Y/view?usp=drivesdk",
+          "drive_file_id": "1bWgIawvdBVYPMNFYFd-Y5010zXTnOy2Y",
+          "pages": 5,
+          "sha256": "d14ec493cd766977ec3372881e09298c0c8625364f402ad0f4fc067c3c314047"
+        }
+      ],
+      "review_notes": "Отдельный сайт или однозначно подтверждённый профиль школы не найден. В поле ссылки указан исходный меморандум, а не сайт организации. Доступ к документу определяется его существующими настройками Google Drive.",
+      "ready_for_import": true,
+      "website_kind": "source_document",
+      "website_evidence_url": "https://drive.google.com/file/d/1bWgIawvdBVYPMNFYFd-Y5010zXTnOy2Y/view?usp=drivesdk",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-022",
+      "name": "Zamin xalqaro maktabi MChJ",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://www.zaminmaktabi.uz/",
+      "description": "Частная школа. Предусмотрены практика, стажировки, повышение квалификации и обмен учебно-методическими материалами.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Zamin xalqaro maktabi.PDF",
+          "url": "https://drive.google.com/file/d/1HnYhCSkw3D2qVQ_V4AOeh8GScv1Z23HK/view?usp=drivesdk",
+          "drive_file_id": "1HnYhCSkw3D2qVQ_V4AOeh8GScv1Z23HK",
+          "pages": 3,
+          "sha256": "9c98c040c2d4e00603718fe555ff96ea9953f6a31fb1435cb4df8b32661be176"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://www.zaminmaktabi.uz/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-023",
+      "name": "Weinan Normal University",
+      "organization_type": "UNIVERSITY",
+      "country": "China",
+      "website": "https://www.wnu.edu.cn",
+      "description": "Университет в Китае. Документ предусматривает образовательный обмен и развитие академического сотрудничества.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [
+        "Weinan Normal University"
+      ],
+      "source_documents": [
+        {
+          "title": "Weinan Normal University Memo.PDF",
+          "url": "https://drive.google.com/file/d/181TyJa8aQ2hhNXI8IesZxIhrz49vBiSC/view?usp=drivesdk",
+          "drive_file_id": "181TyJa8aQ2hhNXI8IesZxIhrz49vBiSC",
+          "pages": 2,
+          "sha256": "1835e4fe3efe63eefd324587a5ce74e63dcb63f3ca4af44602f5f195c2a3368a"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "document_website",
+      "website_evidence_url": "https://drive.google.com/file/d/181TyJa8aQ2hhNXI8IesZxIhrz49vBiSC/view?usp=drivesdk",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-024",
+      "name": "Orient International School MChJ",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://t.me/s/orient_international_school?before=49",
+      "description": "Частная школа. Предусмотрены профориентация учащихся, мастер-классы, подготовка к высшему образованию и обмен опытом.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Orient International school.pdf",
+          "url": "https://drive.google.com/file/d/1Taef6HA08waSh1VJNKmmweM-gktvdWFj/view?usp=drivesdk",
+          "drive_file_id": "1Taef6HA08waSh1VJNKmmweM-gktvdWFj",
+          "pages": 3,
+          "sha256": "37e6a7589fab4e199a3dca47a90e4616824f20b6535f66c000a48399b51f3c45"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_social_profile",
+      "website_evidence_url": "https://t.me/s/orient_international_school?before=49",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-025",
+      "name": "Topexpert German Texnikum",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://orginfo.uz/ru/organization/135abef4faff/",
+      "description": "Техникум. Предусмотрены образовательное сотрудничество, практика, повышение квалификации педагогов и содействие занятости выпускников.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Topexpert German Texnikum.pdf",
+          "url": "https://drive.google.com/file/d/15os5psDNGxfEjXMMJDeRpaQvipi-pKc-/view?usp=drivesdk",
+          "drive_file_id": "15os5psDNGxfEjXMMJDeRpaQvipi-pKc-",
+          "pages": 3,
+          "sha256": "913329de722055f248fc3e17e9a826bfe6cd1a2250c26ba8acfa67fa86a17ab6"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "organization_registry_profile",
+      "website_evidence_url": "https://orginfo.uz/ru/organization/135abef4faff/",
+      "type_evidence_url": "https://orginfo.uz/ru/organization/135abef4faff/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-026",
+      "name": "REPETITOR-TEST NTM",
+      "organization_type": "OTHER",
+      "country": "Uzbekistan",
+      "website": "https://orginfo.uz/ru/organization/e9493348236e/",
+      "description": "Негосударственное образовательное учреждение. Предусмотрены образовательные и методические проекты, практика и обмен опытом преподавателей.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "REPETITOR-TEST.pdf",
+          "url": "https://drive.google.com/file/d/1ybmSZGV7SWx6COPDGcKgNOa5umTZa_qj/view?usp=drivesdk",
+          "drive_file_id": "1ybmSZGV7SWx6COPDGcKgNOa5umTZa_qj",
+          "pages": 3,
+          "sha256": "2da6673bb5411af27366977c99be843c5c1283963243ebad795b2ee40163464a"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "organization_registry_profile",
+      "website_evidence_url": "https://orginfo.uz/ru/organization/e9493348236e/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-027",
+      "name": "Toshkent kasb-hunar va tibbiyot texnikumi",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://nqaae.uz/uz/vocational/310144789",
+      "description": "Профессиональный и медицинский техникум. Предусмотрены практика, обмен опытом и учебными материалами, повышение квалификации.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Toshkent kasb-hunar va tibbiyot texnikumi.pdf",
+          "url": "https://drive.google.com/file/d/1CXWUihdEZ0xJx7NotMHSR4Qb55eQbfQy/view?usp=drivesdk",
+          "drive_file_id": "1CXWUihdEZ0xJx7NotMHSR4Qb55eQbfQy",
+          "pages": 3,
+          "sha256": "0336957bbb0701b6a1a88f84d7355c2f508d35e24f23b98a86fffd712b690b1d"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_education_registry",
+      "website_evidence_url": "https://nqaae.uz/uz/vocational/310144789",
+      "type_evidence_url": "https://nqaae.uz/uz/vocational/310144789",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-028",
+      "name": "TOPEXPERT ACADEMY",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://orginfo.uz/ru/organization/b63f0fae7f3c/",
+      "description": "Образовательная организация. Предусмотрены совместные образовательные проекты, практика и повышение квалификации сотрудников.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "TOPEXPERT ACADEMY.pdf",
+          "url": "https://drive.google.com/file/d/1oUyedxvQmlXidCLiK4XSlhPfNFE67SRa/view?usp=drivesdk",
+          "drive_file_id": "1oUyedxvQmlXidCLiK4XSlhPfNFE67SRa",
+          "pages": 3,
+          "sha256": "1fb4f7ac6f9c455712f498876139865a50aa0b809f1d9381bc514c292b21c6da"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "organization_registry_profile",
+      "website_evidence_url": "https://orginfo.uz/ru/organization/b63f0fae7f3c/",
+      "type_evidence_url": "https://orginfo.uz/ru/organization/b63f0fae7f3c/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-029",
+      "name": "Andijon IT-Med Texnikumi",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://www.itmedtex.uz/",
+      "description": "Техникум. Документ предусматривает практику, стажировки, обмен учебными материалами и сотрудничество по продолжению обучения выпускников.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Andijon IT-Med Texnikumi.pdf",
+          "url": "https://drive.google.com/file/d/1ChH3NaUTHUMdXrMrA1utqL-BKmg7HA3L/view?usp=drivesdk",
+          "drive_file_id": "1ChH3NaUTHUMdXrMrA1utqL-BKmg7HA3L",
+          "pages": 3,
+          "sha256": "2c36ad65d6244ffce768b0325fa2aa9011438019ff6b75031231bead9c203948"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://www.itmedtex.uz/",
+      "type_evidence_url": "https://www.itmedtex.uz/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-030",
+      "name": "TOPEX Texnikumi",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://topexlc.uz/",
+      "description": "Техникум. Предусмотрены образовательные и научно-практические проекты, практика и обмен опытом преподавателей.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "TOPEX Texnikumi.pdf",
+          "url": "https://drive.google.com/file/d/1imMiK4D0SNFN1fKtOWGQeP9P24GMRUy_/view?usp=drivesdk",
+          "drive_file_id": "1imMiK4D0SNFN1fKtOWGQeP9P24GMRUy_",
+          "pages": 3,
+          "sha256": "d47764a19d55811e770e64eaf59ef14ffefb441cc134634f36c23c942172d5eb"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://topexlc.uz/",
+      "type_evidence_url": "https://topexlc.uz/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-031",
+      "name": "OʻZSHAHARSOZLIK LITI",
+      "organization_type": "GOVERNMENT",
+      "country": "Uzbekistan",
+      "website": "https://www.shaharsozlik.uz/",
+      "description": "Проектный научно-исследовательский институт градостроительства. Сотрудничество в архитектуре, строительстве, подготовке кадров и исследованиях.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Shaharsozlik LITI qurilish kompaniyasi.pdf",
+          "url": "https://drive.google.com/file/d/1fIqhybOfiSaNERAlHpkN8Z8T6Z_Sbg6A/view?usp=drivesdk",
+          "drive_file_id": "1fIqhybOfiSaNERAlHpkN8Z8T6Z_Sbg6A",
+          "pages": 4,
+          "sha256": "70aa78558768379eb8518cfdef228c20c9899ceb56592fb111af50a409f95beb"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://www.shaharsozlik.uz/",
+      "type_evidence_url": "https://www.shaharsozlik.uz/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-032",
+      "name": "ТОО «HEADHUNTER.KZ»",
+      "organization_type": "COMPANY",
+      "country": "Kazakhstan",
+      "website": "https://hh.kz/article/28",
+      "description": "Компания по подбору персонала. Меморандум предусматривает взаимодействие по вакансиям, трудоустройству студентов и выпускников, образовательным и исследовательским проектам.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [
+        "HEADHUNTER.KZ",
+        "ТОО HEADHUNTER.KZ"
+      ],
+      "source_documents": [
+        {
+          "title": "Head Hunters.pdf",
+          "url": "https://drive.google.com/file/d/1KhXVtTZw5XUgbcg-mnDsS2X1FxHDQVyE/view?usp=drivesdk",
+          "drive_file_id": "1KhXVtTZw5XUgbcg-mnDsS2X1FxHDQVyE",
+          "pages": 4,
+          "sha256": "adb4be9a3c3cc00c859364d118192e291151261668436b0c76952c59114ec8b2"
+        }
+      ],
+      "review_notes": "Страна взята из адреса HEADHUNTER.KZ в Алматы; это Kazakhstan, а не Uzbekistan.",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://hh.kz/article/28",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-033",
+      "name": "KAFIL SUGʻURTA AJ",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://kafil.uz/ru",
+      "description": "Страховая компания. Предусмотрены стажировки, исследовательские и дипломные проекты, повышение квалификации и совместные семинары.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Kafil sug'urta.PDF",
+          "url": "https://drive.google.com/file/d/1AO9TC0lhtDvIG2wIZsVi5fZyMaVvGknV/view?usp=drivesdk",
+          "drive_file_id": "1AO9TC0lhtDvIG2wIZsVi5fZyMaVvGknV",
+          "pages": 2,
+          "sha256": "a7d81ddb5d1230fc9b8c8d40477e29c73804a07462e6e36b3746961c0289e308"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://kafil.uz/ru",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-034",
+      "name": "Oʻzbekiston yengil atletika federatsiyasi",
+      "organization_type": "NGO",
+      "country": "Uzbekistan",
+      "website": "https://uz.uzathletics.uz/",
+      "description": "Федерация легкой атлетики. Предусмотрены развитие студенческого спорта, совместные мероприятия и популяризация здорового образа жизни.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Ўзбекистон енгил атлетика федерацияси.PDF",
+          "url": "https://drive.google.com/file/d/13i0ZX0URW6QL__qfG3HWPgD9aTV0LBWY/view?usp=drivesdk",
+          "drive_file_id": "13i0ZX0URW6QL__qfG3HWPgD9aTV0LBWY",
+          "pages": 3,
+          "sha256": "e81a5bc4a37d2ffeff624f5cfe569f4f0b72947d82b59a2512218812d12d9f9b"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://uz.uzathletics.uz/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-035",
+      "name": "Oʻzbekiston davlat jismoniy tarbiya va sport universiteti",
+      "organization_type": "UNIVERSITY",
+      "country": "Uzbekistan",
+      "website": "https://www.jtsu.uz/uz",
+      "description": "Университет физической культуры и спорта. Сотрудничество по развитию спорта, совместным мероприятиям и работе со студентами; в архиве два документа этого партнера.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [
+        "Ўзбекистон давлат жисмоний тарбия ва спорт университети",
+        "Узбекский государственный университет физической культуры и спорта"
+      ],
+      "source_documents": [
+        {
+          "title": "Ўзбекистон давлат жисмоний тарбия ва спорт университети.PDF",
+          "url": "https://drive.google.com/file/d/1SlVs-LAqkzOX_NYEgLLx-pABTJNCMWrs/view?usp=drivesdk",
+          "drive_file_id": "1SlVs-LAqkzOX_NYEgLLx-pABTJNCMWrs",
+          "pages": 3,
+          "sha256": "967bc8e0c73efaf06914a9dda6ae199c2e74b2b43f9a0cfcdd568003c47abffd"
+        },
+        {
+          "title": "Жисмоний тарбия ва спорт университети мемо.PDF",
+          "url": "https://drive.google.com/file/d/14Pi_pWRY_gUbo2p8WiHD4xGxLT-R0Qja/view?usp=drivesdk",
+          "drive_file_id": "14Pi_pWRY_gUbo2p8WiHD4xGxLT-R0Qja",
+          "pages": 3,
+          "sha256": "4a8778909a6fc18c6a851367e01486d147b7b90d9d0f424abbdf06aea02a33a4"
+        }
+      ],
+      "review_notes": "Объединены источники 035 и 050: один и тот же университет, одна карточка.",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://www.jtsu.uz/uz",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-036",
+      "name": "Genomika va bioinformatika markazi",
+      "organization_type": "GOVERNMENT",
+      "country": "Uzbekistan",
+      "website": "https://uz.genomics.uz/",
+      "description": "Центр геномики и биоинформатики. Договор предусматривает научные исследования, подготовку кадров, совместные публикации и семинары.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Геномика ва биоинформатика маркази.PDF",
+          "url": "https://drive.google.com/file/d/1RPXowIBhGeDkI9BhJ8v7VpaLGfInGgfH/view?usp=drivesdk",
+          "drive_file_id": "1RPXowIBhGeDkI9BhJ8v7VpaLGfInGgfH",
+          "pages": 2,
+          "sha256": "20f3484e2b519f6818eb9f679c6a09c20b8a1585421c7645d5391d79ca448edd"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://uz.genomics.uz/",
+      "type_evidence_url": "https://uz.genomics.uz/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-037",
+      "name": "BAYAN MEDICAL MChJ",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://uz.linkedin.com/company/bayan-medical",
+      "description": "Организация медицинского профиля. Предусмотрены научно-практическое сотрудничество, повышение квалификации и обмен опытом.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Bayan Medical.PDF",
+          "url": "https://drive.google.com/file/d/10Jt_ye7BMBUyyKYv9wDJ5bQelgeMb7cX/view?usp=drivesdk",
+          "drive_file_id": "10Jt_ye7BMBUyyKYv9wDJ5bQelgeMb7cX",
+          "pages": 2,
+          "sha256": "7f569b03dcc402da6e52341d3654eba6e445e0c4fbd78ca6e4ef8c3e2449c613"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_social_profile",
+      "website_evidence_url": "https://uz.linkedin.com/company/bayan-medical",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-038",
+      "name": "Oʻzbekiston kimyo-farmatsevtika ilmiy-tadqiqot instituti",
+      "organization_type": "GOVERNMENT",
+      "country": "Uzbekistan",
+      "website": "https://nationalbiopharm.uz/uz/about/",
+      "description": "Химико-фармацевтический НИИ. Предусмотрены научные исследования, подготовка кадров, совместные публикации и семинары.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Ўзбекистон кимё-фармацевтика илмий-тадқиқот институти.PDF",
+          "url": "https://drive.google.com/file/d/1edtrz0HgMeD1fsPsUHE34Ps-A70o7btJ/view?usp=drivesdk",
+          "drive_file_id": "1edtrz0HgMeD1fsPsUHE34Ps-A70o7btJ",
+          "pages": 2,
+          "sha256": "c26fc5d871b18157f4bdd455a910ef1c87b80347639db35b02f7eaf9b622b0b5"
+        }
+      ],
+      "review_notes": "Ссылка ведёт на институт-правопреемник; на странице прямо названы исходный институт и правопреемство. Название стороны договора сохранено.",
+      "ready_for_import": true,
+      "website_kind": "official_successor_page",
+      "website_evidence_url": "https://nationalbiopharm.uz/uz/about/",
+      "type_evidence_url": "https://nationalbiopharm.uz/uz/about/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-039",
+      "name": "OʻzR FA Abu Rayhon Beruniy nomidagi Sharqshunoslik instituti",
+      "organization_type": "GOVERNMENT",
+      "country": "Uzbekistan",
+      "website": "https://beruni.uz/en-ca/",
+      "description": "Институт востоковедения Академии наук Узбекистана. Меморандум предусматривает образовательное и научное сотрудничество.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Шарқшунослик институти.PDF",
+          "url": "https://drive.google.com/file/d/1M0-S9awy4MI4qyZGDd3x7iTnrk2jYcjb/view?usp=drivesdk",
+          "drive_file_id": "1M0-S9awy4MI4qyZGDd3x7iTnrk2jYcjb",
+          "pages": 2,
+          "sha256": "79cd8858eebd082b29d27c804f6ffb8e9ce88f5b59c0fe353a8f3074ccee7f3e"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://beruni.uz/en-ca/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-040",
+      "name": "СП ООО «Toshkent Metallurgiya Zavodi»",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://tashkentsteel.uz/page/about",
+      "description": "Металлургическое предприятие. Предусмотрены подготовка кадров, образовательные программы, практика и стажировки студентов.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [
+        "Toshkent Metallurgiya Zavodi"
+      ],
+      "source_documents": [
+        {
+          "title": "Тошкент металлургия заводи.pdf",
+          "url": "https://drive.google.com/file/d/1EsBY9jfib8BuUcwk7Wx9st97RnZ_ZkMC/view?usp=drivesdk",
+          "drive_file_id": "1EsBY9jfib8BuUcwk7Wx9st97RnZ_ZkMC",
+          "pages": 3,
+          "sha256": "0b00a84abf41209215fe4457d8a75695bc0ece5b8c753f8aaa0fe201198fb539"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://tashkentsteel.uz/page/about",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-041",
+      "name": "Toshkent turizm va mehmonxona menejmenti texnikumi",
+      "organization_type": "GOVERNMENT",
+      "country": "Uzbekistan",
+      "website": "https://ttmmt.uz/",
+      "description": "Техникум туризма и гостиничного менеджмента. Меморандум предусматривает взаимодействие в сфере профессионального образования.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "TOSHKENT TURIZM VA MEHMONXONA MENLJMENTI TEXNIKUMI.PDF",
+          "url": "https://drive.google.com/file/d/19LGHww_OB8rBjRlzu74bpHuPnkxLN0Vi/view?usp=drivesdk",
+          "drive_file_id": "19LGHww_OB8rBjRlzu74bpHuPnkxLN0Vi",
+          "pages": 6,
+          "sha256": "be1e80ebe2d1b7e8a778443c8e808e26cca99c8c1a953bc2135b490b76309ee1"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://ttmmt.uz/",
+      "type_evidence_url": "https://ttmmt.uz/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-042",
+      "name": "Mirzo Ulugʻbek vorislari tayyorlov oʻquv kurslari markazi MChJ",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://dscience.uz/qabul/2026",
+      "description": "Центр подготовительных курсов. Предусмотрены привлечение абитуриентов, совместные образовательные проекты и повышение квалификации.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "MIRZO ULUG'BEK VORISLARI TAYYORLOV.PDF",
+          "url": "https://drive.google.com/file/d/12x_BQKj1xb_k-9V9SNWG4oN3WxkK-aOu/view?usp=drivesdk",
+          "drive_file_id": "12x_BQKj1xb_k-9V9SNWG4oN3WxkK-aOu",
+          "pages": 4,
+          "sha256": "13b9debd5f40db74981056e3c6743fe3ce274975013fc101b7a7adb5ebb1d7bc"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://dscience.uz/qabul/2026",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-043",
+      "name": "ИП ООО «International Beverages Tashkent»",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://pepsicobottlers.uz/",
+      "description": "Производственная компания. Предусмотрено сотрудничество в подготовке специалистов и интеграции образования, науки и бизнеса.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "International Beverages Tashkent.PDF",
+          "url": "https://drive.google.com/file/d/138yAQanMmvUQc35dWXZxgoEJzksXNozD/view?usp=drivesdk",
+          "drive_file_id": "138yAQanMmvUQc35dWXZxgoEJzksXNozD",
+          "pages": 4,
+          "sha256": "84dcea4f18f9c55b5a7db19e0a0912ce1a4cf47e97ffb082a3df547ebd522dcc"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://pepsicobottlers.uz/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-044",
+      "name": "Ассоциация отельеров Узбекистана",
+      "organization_type": "NGO",
+      "country": "Uzbekistan",
+      "website": "https://www.hoteliers.uz/",
+      "description": "Отраслевая ассоциация гостиничного бизнеса. Предусмотрены подготовка кадров и развитие образовательных и управленческих практик в гостеприимстве.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Ассоциация отельеров Узбекистана.PDF",
+          "url": "https://drive.google.com/file/d/1elHnPQbrEG8TE8MZzBlmV11_DwuVKADb/view?usp=drivesdk",
+          "drive_file_id": "1elHnPQbrEG8TE8MZzBlmV11_DwuVKADb",
+          "pages": 2,
+          "sha256": "6a98ef80583a04d9de51a2ba04fcad2a08612b4deb43aa84653f855d6b1b6049"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://www.hoteliers.uz/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-045",
+      "name": "Государственная общеобразовательная организация №304 г. Ташкента",
+      "organization_type": "GOVERNMENT",
+      "country": "Uzbekistan",
+      "website": "https://www.goldenpages.uz/uz/company/?Id=48724",
+      "description": "Общеобразовательная школа. Предусмотрены встречи с преподавателями, образовательные мероприятия и профессиональная ориентация учащихся.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "304 мактаб.PDF",
+          "url": "https://drive.google.com/file/d/1wGzJ4nqf__6vvZ9LO22x9cepQ_mG3EuY/view?usp=drivesdk",
+          "drive_file_id": "1wGzJ4nqf__6vvZ9LO22x9cepQ_mG3EuY",
+          "pages": 3,
+          "sha256": "84d0546b60cbe2b94d60baf8ed4af052a8aa1c842b3e9c343a6fcd3e153fe85d"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "business_directory_profile",
+      "website_evidence_url": "https://www.goldenpages.uz/uz/company/?Id=48724",
+      "type_evidence_url": "https://www.goldenpages.uz/uz/company/?Id=48724",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-046",
+      "name": "Konfutsiy nomidagi oʻzbek-xitoy instituti NNT (TDSHU)",
+      "organization_type": "NGO",
+      "country": "Uzbekistan",
+      "website": "https://gov.uz/oz/edu/news/view/21066",
+      "description": "Узбекско-китайский институт имени Конфуция при Ташкентском государственном университете востоковедения. Предусмотрены развитие китайского языка и академический обмен.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Konfutsiy instituti.PDF",
+          "url": "https://drive.google.com/file/d/15qRsSzhvRldZ8IwDaEzS4Pt6rKNnr-Nl/view?usp=drivesdk",
+          "drive_file_id": "15qRsSzhvRldZ8IwDaEzS4Pt6rKNnr-Nl",
+          "pages": 3,
+          "sha256": "b5940e79b1ffc516e645a9a3a79737e90f7fe7f2707cb8c43319ebaad710b5ca"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_institution_reference",
+      "website_evidence_url": "https://gov.uz/oz/edu/news/view/21066",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-047",
+      "name": "Oʻzbekiston huquqni muhofaza qilish organlari qoʻl jangi federatsiyasi",
+      "organization_type": "NGO",
+      "country": "Uzbekistan",
+      "website": "https://qoljangi.uz/",
+      "description": "Федерация рукопашного боя. Предусмотрены развитие спорта в университете и совместные спортивные мероприятия.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Қўл жанги федерацияси.PDF",
+          "url": "https://drive.google.com/file/d/1P9dNy541h1ln34xmQRC7xTvgLkRLlwtD/view?usp=drivesdk",
+          "drive_file_id": "1P9dNy541h1ln34xmQRC7xTvgLkRLlwtD",
+          "pages": 3,
+          "sha256": "8d289ae1a18f20c81427b3f9abe8cb3b1d8bfe1e968594d982ee658f86a365ec"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://qoljangi.uz/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-048",
+      "name": "Oʻzbekiston Sambo assotsiatsiyasi",
+      "organization_type": "NGO",
+      "country": "Uzbekistan",
+      "website": "https://sambo.sport/en/federations/sambo-union-of-asia-and-oceania/sambo-association-of-uzbekistan/",
+      "description": "Спортивная ассоциация. Предусмотрены развитие самбо, студенческого спорта и совместные мероприятия.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Самбо Ассоциацияси.PDF",
+          "url": "https://drive.google.com/file/d/1OxDcfvXxaDUPEfp3CYao1yQkZEEsrRAI/view?usp=drivesdk",
+          "drive_file_id": "1OxDcfvXxaDUPEfp3CYao1yQkZEEsrRAI",
+          "pages": 3,
+          "sha256": "ef71adea5424c4af109c24f26be538ad129ffe9983577a3261be6e867279de6d"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_federation_profile",
+      "website_evidence_url": "https://sambo.sport/en/federations/sambo-union-of-asia-and-oceania/sambo-association-of-uzbekistan/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-049",
+      "name": "ADM Jizzakh MChJ",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://www.adm.uz/adm-jizzakh/",
+      "description": "Предприятие автомобильной промышленности. Меморандум предусматривает взаимодействие образования, науки и производства.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [
+        "ADM Jizzakh"
+      ],
+      "source_documents": [
+        {
+          "title": "ADM Global.PDF",
+          "url": "https://drive.google.com/file/d/1SUnAZQlKcjFtroPULBY3Wr-YjSs9QZ4c/view?usp=drivesdk",
+          "drive_file_id": "1SUnAZQlKcjFtroPULBY3Wr-YjSs9QZ4c",
+          "pages": 4,
+          "sha256": "2bb2307c20ba2123dd5ee4be1d1309dafb513502e382fc321d161e3bd5d62f6a"
+        }
+      ],
+      "review_notes": "Имя файла ADM Global; сторона в тексте — ADM Jizzakh. Автоматическое сопоставление по имени ADM Global не выполняется.",
+      "ready_for_import": true,
+      "website_kind": "official_institution_page",
+      "website_evidence_url": "https://www.adm.uz/adm-jizzakh/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-051",
+      "name": "Oʻzbekiston Taekvondo WT assotsiatsiyasi",
+      "organization_type": "NGO",
+      "country": "Uzbekistan",
+      "website": "https://t.me/uzbtaekwondowt/3053",
+      "description": "Спортивная ассоциация. Предусмотрены развитие таэквондо, студенческого спорта и совместные мероприятия.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Таеквондо ВТ.PDF",
+          "url": "https://drive.google.com/file/d/16fIe4RHpWx2DBTfCDlLSujygwm-BQYyD/view?usp=drivesdk",
+          "drive_file_id": "16fIe4RHpWx2DBTfCDlLSujygwm-BQYyD",
+          "pages": 3,
+          "sha256": "a5a51f99b5ce210d381eb3f6d9ba5aa3c44450bb48fb5bfb473506556ef44895"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_social_profile",
+      "website_evidence_url": "https://t.me/uzbtaekwondowt/3053",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-052",
+      "name": "Oʻzbekiston jang sanʼati federatsiyasi",
+      "organization_type": "NGO",
+      "country": "Uzbekistan",
+      "website": "https://usport.uz/uz/kinds/86",
+      "description": "Федерация боевых искусств. Предусмотрены развитие физической культуры, студенческого спорта и совместные мероприятия.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Жанг санъати федерацияси.PDF",
+          "url": "https://drive.google.com/file/d/1p0FJRjTOxEQbtMVTNA_mlnnwbq_5Hxno/view?usp=drivesdk",
+          "drive_file_id": "1p0FJRjTOxEQbtMVTNA_mlnnwbq_5Hxno",
+          "pages": 3,
+          "sha256": "a647539397c8bab3cb5c3d18d0b249077eb19bca557b466c40c635e1b0276034"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_federation_reference",
+      "website_evidence_url": "https://usport.uz/uz/kinds/86",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-053",
+      "name": "Oʻzbekiston kikboksing assotsiatsiyasi",
+      "organization_type": "NGO",
+      "country": "Uzbekistan",
+      "website": "https://t.me/s/wakouz",
+      "description": "Спортивная ассоциация. Предусмотрены развитие кикбоксинга и совместные спортивные мероприятия.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Кикбоксинг ассоциацияси.PDF",
+          "url": "https://drive.google.com/file/d/19Ue1d8tyIpdydZ08c1qBAU_qH7fBFYxH/view?usp=drivesdk",
+          "drive_file_id": "19Ue1d8tyIpdydZ08c1qBAU_qH7fBFYxH",
+          "pages": 3,
+          "sha256": "bab0873880b339f6f6229810cf0441f19f97ca00c7b5d6d84bb64f4b77c70ffc"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_social_profile",
+      "website_evidence_url": "https://t.me/s/wakouz",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-054",
+      "name": "GRELITO-PHARM MChJ",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://orginfo.uz/en/organization/7de8b0c738f1/",
+      "description": "Компания — сторона меморандума о подготовке кадров и связи образования с производством. Предусмотрены практические навыки в менеджменте и маркетинге.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Грелито фарм.pdf",
+          "url": "https://drive.google.com/file/d/1vQIdefS5DoyTkFDrJF7w5DSBP57n4H-E/view?usp=drivesdk",
+          "drive_file_id": "1vQIdefS5DoyTkFDrJF7w5DSBP57n4H-E",
+          "pages": 3,
+          "sha256": "4059c4e570deb9358d7e3ffb42bd6896281b8e568e23cb87e43eb0daef8ea43f"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "organization_registry_profile",
+      "website_evidence_url": "https://orginfo.uz/en/organization/7de8b0c738f1/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-055",
+      "name": "TOYS CITY MChJ",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://orginfo.uz/ru/organization/a6b7137a3ff3/",
+      "description": "Производственная компания. Предусмотрены подготовка кадров, связь обучения с производственной средой, развитие навыков менеджмента и маркетинга.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "ТОYS СIТY.pdf",
+          "url": "https://drive.google.com/file/d/1soAEk8-knNqKAKehrsTJwlEq10F0hQ4x/view?usp=drivesdk",
+          "drive_file_id": "1soAEk8-knNqKAKehrsTJwlEq10F0hQ4x",
+          "pages": 3,
+          "sha256": "575ecad232ef3db45e4d4ccd0f417c4a1297a89db171156e1c828c1a6e8f5f29"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "organization_registry_profile",
+      "website_evidence_url": "https://orginfo.uz/ru/organization/a6b7137a3ff3/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-056",
+      "name": "Yagona integrator UZINFOCOM MChJ",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://uzinfocom.uz/",
+      "description": "Единый интегратор. Документ предусматривает практику и взаимодействие по учебным программам менеджмента и маркетинга, управлению IT-проектами и цифровой трансформации.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [
+        "UZINFOCOM",
+        "Yagona integrator UZINFOCOM"
+      ],
+      "source_documents": [
+        {
+          "title": "UZINFOCOM.pdf",
+          "url": "https://drive.google.com/file/d/1_FieFen7-7L4_8lVprVxgYh0lB--c_es/view?usp=drivesdk",
+          "drive_file_id": "1_FieFen7-7L4_8lVprVxgYh0lB--c_es",
+          "pages": 6,
+          "sha256": "1490f4979ed3a3a7894e629ab70b9741ce7b03ed6bb6dd90aa99d1afddf7078a"
+        }
+      ],
+      "review_notes": "Учебные программы в документе относятся к менеджменту и маркетингу; привязка Directions не выполняется.",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://uzinfocom.uz/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-057",
+      "name": "KEDR MChJ",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://orginfo.uz/ru/organization/adf29fbee414/",
+      "description": "Компания — сторона меморандума о подготовке кадров для производства. Предусмотрены практика и развитие навыков менеджмента и маркетинга.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Kedr.pdf",
+          "url": "https://drive.google.com/file/d/15hXWFrDNwW4o_zWLTWS5iyRWUiHcbKZ9/view?usp=drivesdk",
+          "drive_file_id": "15hXWFrDNwW4o_zWLTWS5iyRWUiHcbKZ9",
+          "pages": 6,
+          "sha256": "29141248c783125e5f2f43008365f5622018c43643760e0a22b2288b356e263b"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "organization_registry_profile",
+      "website_evidence_url": "https://orginfo.uz/ru/organization/adf29fbee414/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-058",
+      "name": "GREEN LINE TOYS MChJ",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://www.prom.uz/ads/igrushki-barbi/",
+      "description": "Производственная компания. Предусмотрены связь обучения с производством, практика и развитие навыков менеджмента и маркетинга.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Green Line Toys.pdf",
+          "url": "https://drive.google.com/file/d/1EYYFONsTum6PnLug1rAHPFxvAZHTAGsu/view?usp=drivesdk",
+          "drive_file_id": "1EYYFONsTum6PnLug1rAHPFxvAZHTAGsu",
+          "pages": 3,
+          "sha256": "25c341b7295a8611e5e947e159fdcecd4785a89d2903bcdfd5c33a817ec5cad7"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "company_marketplace_profile",
+      "website_evidence_url": "https://www.prom.uz/ads/igrushki-barbi/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-059",
+      "name": "Salohiyat maktabi MChJ",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://ihamkor.uz/ru/subject/d2a81320bfe53c305cc893561f0dc6d6",
+      "description": "Частная школа. Предусмотрены образовательное взаимодействие и развитие долгосрочного сотрудничества с университетом.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Salohiyat maktabi.PDF",
+          "url": "https://drive.google.com/file/d/1AIhkDvfB8zV-EYW87DZ5r5lPM2aYKDO_/view?usp=drivesdk",
+          "drive_file_id": "1AIhkDvfB8zV-EYW87DZ5r5lPM2aYKDO_",
+          "pages": 4,
+          "sha256": "65923473baa4ffa9f7c064af42ba458fa6c2ef3f7ca37781eb6944f6f544bc72"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "organization_registry_profile",
+      "website_evidence_url": "https://ihamkor.uz/ru/subject/d2a81320bfe53c305cc893561f0dc6d6",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-060",
+      "name": "Teach For Uzbekistan NNT",
+      "organization_type": "NGO",
+      "country": "Uzbekistan",
+      "website": "https://www.teachforuzbekistan.org/en/info/fellowing",
+      "description": "Негосударственная некоммерческая организация. Документ предусматривает образовательное сотрудничество с университетом.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Teach for Uzbekistan.PDF",
+          "url": "https://drive.google.com/file/d/14L7dnfw7IH0VSMPqfmPMQ8s23zws9a_F/view?usp=drivesdk",
+          "drive_file_id": "14L7dnfw7IH0VSMPqfmPMQ8s23zws9a_F",
+          "pages": 4,
+          "sha256": "372315db2e81230bea9b81ad8fd47be68b677553ea9ff2e50a9b921436584747"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://www.teachforuzbekistan.org/en/info/fellowing",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-061",
+      "name": "Toshkent amaliy fanlar universiteti",
+      "organization_type": "UNIVERSITY",
+      "country": "Uzbekistan",
+      "website": "https://www.utas.uz/",
+      "description": "Университет прикладных наук. Предусмотрены совместные исследования, подготовка кадров, публикации и семинары.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Тошкент амалий фанлар университети.PDF",
+          "url": "https://drive.google.com/file/d/1Fcn23DkFVkte-Oy2lhUbetxwQ5dhS1OV/view?usp=drivesdk",
+          "drive_file_id": "1Fcn23DkFVkte-Oy2lhUbetxwQ5dhS1OV",
+          "pages": 2,
+          "sha256": "23ecc8b6615ef4b4fae60be6282fb59675a20593394fd7687c1a3185ddfd6e0a"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://www.utas.uz/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-062",
+      "name": "LATUS EXPO MChJ",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://orginfo.uz/ru/organization/c88c9ee05601/",
+      "description": "Компания — сторона меморандума в текстильной сфере. Предусмотрены исследования, испытания продукции, обучение специалистов и производственное сотрудничество.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [
+        "LATUS EXPO"
+      ],
+      "source_documents": [
+        {
+          "title": "Indigo Garments.PDF",
+          "url": "https://drive.google.com/file/d/1d8gd13jysM-Sn3Uz8bxQL1DiQDWmoBLr/view?usp=drivesdk",
+          "drive_file_id": "1d8gd13jysM-Sn3Uz8bxQL1DiQDWmoBLr",
+          "pages": 4,
+          "sha256": "befb8ea4503100176971f5ce954f6c998dd02137cff214853997787c1ffeb565"
+        }
+      ],
+      "review_notes": "Имя файла Indigo Garments; сторона в тексте — LATUS EXPO. Тождество бренду Indigo Garments отдельно не подтверждено.",
+      "ready_for_import": true,
+      "website_kind": "organization_registry_profile",
+      "website_evidence_url": "https://orginfo.uz/ru/organization/c88c9ee05601/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-063",
+      "name": "Urganch Ranch texnologiya universiteti",
+      "organization_type": "UNIVERSITY",
+      "country": "Uzbekistan",
+      "website": "https://www.ranch.university/",
+      "description": "Технологический университет. Предусмотрены академические связи, научные проекты и обмен в области образования.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Urganch Ranch texnologiya universiteti.pdf",
+          "url": "https://drive.google.com/file/d/1rV3p6JRQaSnIaET9Og8rj-LGBwjQ6WzB/view?usp=drivesdk",
+          "drive_file_id": "1rV3p6JRQaSnIaET9Og8rj-LGBwjQ6WzB",
+          "pages": 3,
+          "sha256": "f0e3f2865a8ecea6480c0694adec4e68c46334cc78093cd5d444085f4ee4ea0b"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://www.ranch.university/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-064",
+      "name": "NIL-GRANIT MChJ",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://samo.aslbazar.com/contacts/en/",
+      "description": "Компания — сторона меморандума в текстильной сфере. Предусмотрены научно-производственное сотрудничество, исследования и подготовка специалистов.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [
+        "NIL-GRANIT"
+      ],
+      "source_documents": [
+        {
+          "title": "Samo Textile.PDF",
+          "url": "https://drive.google.com/file/d/12q9T0nrVnq8u3x96EXDtZdk1FSSZ6Iym/view?usp=drivesdk",
+          "drive_file_id": "12q9T0nrVnq8u3x96EXDtZdk1FSSZ6Iym",
+          "pages": 4,
+          "sha256": "e11fe9d3da90afe43c601c51149b9085a6fc8a1217cfe79539229a1f907916b6"
+        }
+      ],
+      "review_notes": "Имя файла Samo Textile; сторона в тексте — NIL-GRANIT. Тождество бренду Samo Textile отдельно не подтверждено.",
+      "ready_for_import": true,
+      "website_kind": "official_company_profile",
+      "website_evidence_url": "https://samo.aslbazar.com/contacts/en/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-065",
+      "name": "Oʻzbekiston Respublikasi Qurolli Kuchlari «Tinchlik yoʻlida hamkorlik» markazi",
+      "organization_type": "GOVERNMENT",
+      "country": "Uzbekistan",
+      "website": "https://gov.uz/oz/mudofaa",
+      "description": "Центр Вооруженных сил Узбекистана. Предусмотрено сотрудничество в образовании, научной работе и повышении профессиональной подготовки.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Tinchlik yo'lida hamkorlik.PDF",
+          "url": "https://drive.google.com/file/d/1_NsLn1O9sU1IuFlQ3OW_S1nMLBLLv24J/view?usp=drivesdk",
+          "drive_file_id": "1_NsLn1O9sU1IuFlQ3OW_S1nMLBLLv24J",
+          "pages": 4,
+          "sha256": "7cc5d3b0c387f39bac41d8e24abd689edf8f5868bdf81d558bc366af05017fc4"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_parent_website",
+      "website_evidence_url": "https://gov.uz/oz/mudofaa",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-066",
+      "name": "Ardent Foods MChJ",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://orginfo.uz/en/organization/52a4d8b20b78/",
+      "description": "Компания — сторона договора о научно-практическом сотрудничестве. Предусмотрены подготовка кадров, повышение квалификации и совместные исследования.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Ardent Foods.PDF",
+          "url": "https://drive.google.com/file/d/1BFMu_VA1Rzb3DFLY-ktlkrSQ4WswSYS1/view?usp=drivesdk",
+          "drive_file_id": "1BFMu_VA1Rzb3DFLY-ktlkrSQ4WswSYS1",
+          "pages": 2,
+          "sha256": "fdabc3d5cf762c1895dd7a82ea52bfa31baf8940606414b34b573ab34f9f99c5"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "organization_registry_profile",
+      "website_evidence_url": "https://orginfo.uz/en/organization/52a4d8b20b78/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-067",
+      "name": "СП ООО «BYD Uzbekistan Factory»",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://www.bydfactory.uz/",
+      "description": "Предприятие автомобильной промышленности. Предусмотрены образование, исследования и инновации в электромобилестроении и смежных отраслях.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [
+        "BYD Uzbekistan Factory"
+      ],
+      "source_documents": [
+        {
+          "title": "BYD меморандум.PDF",
+          "url": "https://drive.google.com/file/d/10tqFtI4hNFSDUUyUICGsXQyClo6_bbOp/view?usp=drivesdk",
+          "drive_file_id": "10tqFtI4hNFSDUUyUICGsXQyClo6_bbOp",
+          "pages": 3,
+          "sha256": "e119787c5f9027c5ff2fd67e4a8602126ae46cc1051f2d0647c950e596ea7019"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://www.bydfactory.uz/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-068",
+      "name": "CORALLPHARM MChJ",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://corallpharm.com/",
+      "description": "Организация фармацевтического профиля. Предусмотрены подготовка кадров, исследования, публикации и обмен опытом.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "CORALL PHARM меморандум.PDF",
+          "url": "https://drive.google.com/file/d/17X-eHRNE4pNo-m4eAVJg6Sm2lfUroht0/view?usp=drivesdk",
+          "drive_file_id": "17X-eHRNE4pNo-m4eAVJg6Sm2lfUroht0",
+          "pages": 2,
+          "sha256": "a91551a2bb8af9e61455ef68e96a7de7ea5230656d251b9334cff484d4c2fff7"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://corallpharm.com/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-069",
+      "name": "COSMEDICARE MChJ (Derma Clinic)",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://www.goldenpages.uz/company/?Id=111516",
+      "description": "Клиника эстетической медицины и дермокосметологии. Предусмотрены подготовка специалистов и практическое и научное сотрудничество.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "COSMEDICARE.PDF",
+          "url": "https://drive.google.com/file/d/1pwePRi7v78zC-JJx0PySbfYKFEPaj6HG/view?usp=drivesdk",
+          "drive_file_id": "1pwePRi7v78zC-JJx0PySbfYKFEPaj6HG",
+          "pages": 4,
+          "sha256": "b10ecfe04f052841227fb74493195e51f35e546a6f8028bf17938b85e72fba1a"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "business_directory_profile",
+      "website_evidence_url": "https://www.goldenpages.uz/company/?Id=111516",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-070",
+      "name": "UzAuto Motors AJ",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://uzautomotors.com/contacts",
+      "description": "Предприятие автомобильной промышленности. Предусмотрены сотрудничество в образовании, науке и автомобилестроении.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [
+        "UzAuto Motors"
+      ],
+      "source_documents": [
+        {
+          "title": "UzAuto Motors.PDF",
+          "url": "https://drive.google.com/file/d/1kFRtp7faPmBCx_C1Er1-8FsttYdGUyzM/view?usp=drivesdk",
+          "drive_file_id": "1kFRtp7faPmBCx_C1Er1-8FsttYdGUyzM",
+          "pages": 3,
+          "sha256": "2263523f0302478f826075c30237c6d21d92c4b024ece6fc5a342e4993a87b5d"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://uzautomotors.com/contacts",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-071",
+      "name": "DOCTOR-D-IVF MChJ",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://doctord-ivf.uz/",
+      "description": "Организация медицинского профиля. В договоре предусмотрены научно-практическое сотрудничество и подготовка кадров.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Doctor D memo.PDF",
+          "url": "https://drive.google.com/file/d/1URdx93YQSpShIoQgAGrOWBnBsFsnnDjc/view?usp=drivesdk",
+          "drive_file_id": "1URdx93YQSpShIoQgAGrOWBnBsFsnnDjc",
+          "pages": 2,
+          "sha256": "dcaea8713c5ad2cadfa7f8cfd10c6e3440a28f564e18bc0f3c1b91e7bb226816"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://doctord-ivf.uz/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-072",
+      "name": "RADIKS MChJ",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://radiks.uz/",
+      "description": "Организация фармацевтического профиля. Предусмотрены исследования, подготовка кадров, повышение квалификации и совместные семинары.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Radiks Farm.pdf",
+          "url": "https://drive.google.com/file/d/1MHRdyum4gQROVLBj9ae3lxs--sKsdyP1/view?usp=drivesdk",
+          "drive_file_id": "1MHRdyum4gQROVLBj9ae3lxs--sKsdyP1",
+          "pages": 2,
+          "sha256": "b80c230971a2399c1e7cd2e19367e65493920278912cea50054f3278f514529f"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://radiks.uz/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-073",
+      "name": "OʻzR FA O. S. Sodiqov nomidagi Bioorganik kimyo instituti",
+      "organization_type": "GOVERNMENT",
+      "country": "Uzbekistan",
+      "website": "https://biochem.uz/ru/",
+      "description": "Институт биоорганической химии Академии наук Узбекистана. Предусмотрены совместные исследования, подготовка кадров и научные публикации.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Биоорганик кимё институти.PDF",
+          "url": "https://drive.google.com/file/d/1QgAR_MPNOyXf2r3PqD5Ea5Igt973PaGc/view?usp=drivesdk",
+          "drive_file_id": "1QgAR_MPNOyXf2r3PqD5Ea5Igt973PaGc",
+          "pages": 2,
+          "sha256": "c9be28db195d25a0dd10653ed964a32035516b52b716733bb7fcdcc1dd1d893e"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://biochem.uz/ru/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-074",
+      "name": "RIVER MED PHARM MChJ",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://www.rivermedpharm.uz/",
+      "description": "Организация фармацевтического профиля. Предусмотрены совместные исследования, подготовка кадров и обмен опытом.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "River Med Pharm.PDF",
+          "url": "https://drive.google.com/file/d/16is1s9Wz6fgRwcgFPJ_N361PjMmMVLvY/view?usp=drivesdk",
+          "drive_file_id": "16is1s9Wz6fgRwcgFPJ_N361PjMmMVLvY",
+          "pages": 2,
+          "sha256": "00dbaeb3e2cb3b788d9e4dd48fc0385a16f0178e1d1b5fe8d2194fac253415d8"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://www.rivermedpharm.uz/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-075",
+      "name": "Ilgʻor texnologiyalar markazi",
+      "organization_type": "GOVERNMENT",
+      "country": "Uzbekistan",
+      "website": "https://cat-science.uz/",
+      "description": "Центр передовых технологий. Предусмотрены научно-техническое сотрудничество, подготовка кадров, исследования и публикации.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Илғор технологиялар маркази.PDF",
+          "url": "https://drive.google.com/file/d/143B1WnZ7F3SXWG2BLgpKIUpsAZeC3sjN/view?usp=drivesdk",
+          "drive_file_id": "143B1WnZ7F3SXWG2BLgpKIUpsAZeC3sjN",
+          "pages": 2,
+          "sha256": "a329ed381473724ccaa9366e10098a4a38e50f275b476561dda0a5937ee4e383"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://cat-science.uz/",
+      "type_evidence_url": "https://cat-science.uz/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-076",
+      "name": "BUNKER ACADEMY MChJ",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://bunkerschool.uz/bunker-akademy/",
+      "description": "Частная школа. Меморандум предусматривает образовательное сотрудничество и взаимодействие с университетом.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Bunker School.pdf",
+          "url": "https://drive.google.com/file/d/151RzK6V8Gx2Dukw0YcM9IRYs0e4IEeis/view?usp=drivesdk",
+          "drive_file_id": "151RzK6V8Gx2Dukw0YcM9IRYs0e4IEeis",
+          "pages": 4,
+          "sha256": "3249873cd20f804f563ef4e10ed402c0a3ce91ccecd119565df0c6795ba7da76"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://bunkerschool.uz/bunker-akademy/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-077",
+      "name": "АО «Octobank»",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://octobank.uz/en",
+      "description": "Банк. Предусмотрены стажировки с учетом кадровых потребностей и процедур банка, развитие кадрового резерва и образовательное взаимодействие.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [
+        "Octobank"
+      ],
+      "source_documents": [
+        {
+          "title": "Octobank.PDF",
+          "url": "https://drive.google.com/file/d/1SYFLnXWy2Mt937EZfDLzsCfin8O6MQ5m/view?usp=drivesdk",
+          "drive_file_id": "1SYFLnXWy2Mt937EZfDLzsCfin8O6MQ5m",
+          "pages": 3,
+          "sha256": "d8514e147d578620c951fb5f1e0709afce8c3bd9446505acd7ccc193b7bbe5d1"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://octobank.uz/en",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-078",
+      "name": "QURBONOV SCHOOL NTT",
+      "organization_type": "OTHER",
+      "country": "Uzbekistan",
+      "website": "https://www.qurbonov-school.uz/",
+      "description": "Негосударственная образовательная организация. Меморандум предусматривает образовательное взаимодействие и развитие учащихся.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Qurbonov School o'quv markazi.pdf",
+          "url": "https://drive.google.com/file/d/1tfDL27oRgFo2etcEqrrQjfjLhzDkhqP8/view?usp=drivesdk",
+          "drive_file_id": "1tfDL27oRgFo2etcEqrrQjfjLhzDkhqP8",
+          "pages": 3,
+          "sha256": "0358cfc76844fd2e27e513a14e1024b7df01c80a178ec7b9031b55e05ba85203"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://www.qurbonov-school.uz/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-079",
+      "name": "НОУ «EUROMED SCHOOL»",
+      "organization_type": "OTHER",
+      "country": "Uzbekistan",
+      "website": "https://euromedschool.uz/uz/natijalar/",
+      "description": "Негосударственная школа. Предусмотрено долгосрочное сотрудничество в развитии образовательной среды.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "EUROMED School.pdf",
+          "url": "https://drive.google.com/file/d/1fRJtzb1esL8q2rjxWuY2ENb-iQXS2R1V/view?usp=drivesdk",
+          "drive_file_id": "1fRJtzb1esL8q2rjxWuY2ENb-iQXS2R1V",
+          "pages": 3,
+          "sha256": "d1382dbab221520aae3c1547c281603503655d3e2553401f42bc6bc3cbdf87cf"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://euromedschool.uz/uz/natijalar/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-080",
+      "name": "ООО «HMC U» (Reikartz)",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://reikartz.com/ru/rules/public-offer/",
+      "description": "Компания — сторона меморандума в сфере гостиничного бизнеса. В документе используется бренд Reikartz; предусмотрены совместные проекты и взаимодействие с университетом.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [
+        "HMC U",
+        "ООО HMC U"
+      ],
+      "source_documents": [
+        {
+          "title": "REIKARTZ hotel.pdf",
+          "url": "https://drive.google.com/file/d/11MJZusizYj34YLG-cfE6iOLhNRKJZ6SJ/view?usp=drivesdk",
+          "drive_file_id": "11MJZusizYj34YLG-cfE6iOLhNRKJZ6SJ",
+          "pages": 5,
+          "sha256": "a23d86f42d373528409fb227e62b8a37babd8ce3f41752f3ed12427631784a52"
+        }
+      ],
+      "review_notes": "В тексте указано HMC U; логотип Reikartz присутствует в исходном документе.",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://reikartz.com/ru/rules/public-offer/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-081",
+      "name": "ООО «Leader online»",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://www.leaderonline.uz/",
+      "description": "Компания в сфере образования. Предусмотрено партнерство в образовании и науке, обмен опытом и реализация совместных инициатив.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Leader online School.pdf",
+          "url": "https://drive.google.com/file/d/1FfOw_DOjpOLHZSpInngvzy2IWncmuivB/view?usp=drivesdk",
+          "drive_file_id": "1FfOw_DOjpOLHZSpInngvzy2IWncmuivB",
+          "pages": 4,
+          "sha256": "91fca51dd2aa4242842f5f51335779635811ca06cc1ec2cdad50b7dcf3fead6b"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://www.leaderonline.uz/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-082",
+      "name": "Fan olimpiadalari markazi",
+      "organization_type": "GOVERNMENT",
+      "country": "Uzbekistan",
+      "website": "https://www.olympcenter.uz/uz",
+      "description": "Центр предметных олимпиад при Агентстве специализированных образовательных учреждений. Предусмотрено образовательное и научно-практическое сотрудничество.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Фан олимпиадалари маркази.PDF",
+          "url": "https://drive.google.com/file/d/1eti45yNokjps-zzyzO15N7g3LoPrHh3_/view?usp=drivesdk",
+          "drive_file_id": "1eti45yNokjps-zzyzO15N7g3LoPrHh3_",
+          "pages": 4,
+          "sha256": "ab749fe840fd656012a82234701ab9cc297424ee18262e4688f45318645226dc"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://www.olympcenter.uz/uz",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-083",
+      "name": "Творческий союз художников Узбекистана",
+      "organization_type": "NGO",
+      "country": "Uzbekistan",
+      "website": "https://www.yellowpages.uz/en/company/creative-union-of-uzbekistan-artists",
+      "description": "Творческое объединение. Документ предусматривает сотрудничество в искусстве, образовании и развитии талантов.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Ўзбекистон Рассомлар ижодий бирлашмаси.PDF",
+          "url": "https://drive.google.com/file/d/1SnA4GGCKiIXklJp6OVEGZzYhY3jXJ3My/view?usp=drivesdk",
+          "drive_file_id": "1SnA4GGCKiIXklJp6OVEGZzYhY3jXJ3My",
+          "pages": 2,
+          "sha256": "a4687f41d81d510ee766c1303fde7948330f2df9cbcef35e324558c68af3cb0b"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "business_directory_profile",
+      "website_evidence_url": "https://www.yellowpages.uz/en/company/creative-union-of-uzbekistan-artists",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-084",
+      "name": "Oʻzbekiston Karate ITKF federatsiyasi",
+      "organization_type": "NGO",
+      "country": "Uzbekistan",
+      "website": "https://itkf.global/members/",
+      "description": "Федерация карате ITKF. Предусмотрены совместные проекты в спорте и физической культуре.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "ITKF Karate Federation.PDF",
+          "url": "https://drive.google.com/file/d/1SFOIj0gfV91gy0Ghd8LY7DfuLzzG8fJU/view?usp=drivesdk",
+          "drive_file_id": "1SFOIj0gfV91gy0Ghd8LY7DfuLzzG8fJU",
+          "pages": 3,
+          "sha256": "4491da61a095eb28cc5c9e2a0315aedab112270a86429b4b3b8584f89e3e2db6"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_federation_reference",
+      "website_evidence_url": "https://itkf.global/members/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-085",
+      "name": "АИКБ «Ипак Йули»",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://www.ipakyulibank.uz/",
+      "description": "Банк. Предусмотрены образовательные программы, практика и стажировки студентов, взаимодействие по подготовке специалистов.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [
+        "Ipak Yuli Bank",
+        "Ипак Йули Банк"
+      ],
+      "source_documents": [
+        {
+          "title": "Ипак йўли банк.pdf",
+          "url": "https://drive.google.com/file/d/1CXuwYRoV6DeUnyAYWanKF6UxJXDijLgR/view?usp=drivesdk",
+          "drive_file_id": "1CXuwYRoV6DeUnyAYWanKF6UxJXDijLgR",
+          "pages": 4,
+          "sha256": "619d30731080f0e79bc03e7e42533a02394c94823af95a61bf9b304c614c92ec"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://www.ipakyulibank.uz/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-086",
+      "name": "АО «Узмиллийбанк» — центр «Келажакка қадам»",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://kelajakkaqadammarkazi.uz/",
+      "description": "Центр банка NBU. Соглашение предусматривает реализацию программы «Келажакка қадам» и содействие трудоустройству выпускников.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "NBU Bank.pdf",
+          "url": "https://drive.google.com/file/d/12NzTMyyqNX6YL8eZMK4O74AGRhJ1yZ8O/view?usp=drivesdk",
+          "drive_file_id": "12NzTMyyqNX6YL8eZMK4O74AGRhJ1yZ8O",
+          "pages": 3,
+          "sha256": "e94a08e5c8b9167d65f9ecad05949eaf1d0a8803a23d4c8475b191b5a1b96bd3"
+        }
+      ],
+      "review_notes": "Сторона — центр «Келажакка қадам» АО «Узмиллийбанк».",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://kelajakkaqadammarkazi.uz/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-087",
+      "name": "Oʻzbekiston volontyorlari assotsiatsiyasi",
+      "organization_type": "NGO",
+      "country": "Uzbekistan",
+      "website": "https://volontyor.uz/",
+      "description": "Ассоциация волонтеров Узбекистана. Предусмотрены социальное партнерство и совместные волонтерские и просветительские инициативы.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Волонтёрлари ассоциацияси меморандум.PDF",
+          "url": "https://drive.google.com/file/d/1xjp3Jrp_MTWT0qqOlmKKe8ZINRThSNRK/view?usp=drivesdk",
+          "drive_file_id": "1xjp3Jrp_MTWT0qqOlmKKe8ZINRThSNRK",
+          "pages": 3,
+          "sha256": "0009a0a60b1a504d11aa40d56961358b78af928f3901cc26fa1e730a98b12e46"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://volontyor.uz/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-088",
+      "name": "ИП ООО «VENTION»",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://join.ventionteams.com/uzbekistan",
+      "description": "IT-компания. Предусмотрены научно-техническое и образовательное сотрудничество, практика и стажировки, содействие трудоустройству при наличии вакансий.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [
+        "VENTION",
+        "ИП ООО VENTION"
+      ],
+      "source_documents": [
+        {
+          "title": "Vention IT.PDF",
+          "url": "https://drive.google.com/file/d/1D2lBGogl_xug-eDZ4FKX5yasBNgF85nb/view?usp=drivesdk",
+          "drive_file_id": "1D2lBGogl_xug-eDZ4FKX5yasBNgF85nb",
+          "pages": 3,
+          "sha256": "84d689f644ffb6248bf2e7499f634edd4b90ccf2f9fb635f587e124d1e955be1"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_institution_page",
+      "website_evidence_url": "https://join.ventionteams.com/uzbekistan",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-089",
+      "name": "ННО Центр социальной защиты и образования «Белый парус»",
+      "organization_type": "NGO",
+      "country": "Uzbekistan",
+      "website": "https://oqyelkan.org/",
+      "description": "Негосударственная некоммерческая организация. Предусмотрены сотрудничество в специальном образовании и поддержка детей с особыми потребностями.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "«Белый парус» ННО.pdf",
+          "url": "https://drive.google.com/file/d/15knzheYLnqMhF-POYXtIld-ILr2sauau/view?usp=drivesdk",
+          "drive_file_id": "15knzheYLnqMhF-POYXtIld-ILr2sauau",
+          "pages": 3,
+          "sha256": "5fc86e1c009b0fd8a07621d00938f5c49e030a6de5e82e13a6f81f144e745002"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://oqyelkan.org/en/%D0%BD%D0%B0%D1%88%D0%B8-%D1%81%D0%BF%D0%B5%D1%86%D0%B8%D0%B0%D0%BB%D0%B8%D1%81%D1%82%D1%8B/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-090",
+      "name": "Oʻzbekiston eksportchilari uyushmasi",
+      "organization_type": "NGO",
+      "country": "Uzbekistan",
+      "website": "https://exportuz.com/en",
+      "description": "Ассоциация экспортеров Узбекистана. Предусмотрены образовательное сотрудничество и подготовка специалистов по международной торговле.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Ўзбекистон Экспортчилари уюшмаси.PDF",
+          "url": "https://drive.google.com/file/d/1t-3aOXA2tsOQmc30K0BjDAPyWBC90pNW/view?usp=drivesdk",
+          "drive_file_id": "1t-3aOXA2tsOQmc30K0BjDAPyWBC90pNW",
+          "pages": 2,
+          "sha256": "97c21e32cc72477ede73b3817896bbf9310a01e1b331a0f688b7a7c39b49270e"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://exportuz.com/en",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-091",
+      "name": "ООО «INTEST MAX» (Inter Nation English School)",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://inter-nation.uz/en",
+      "description": "Учебный центр под брендом Inter Nation English School. Предусмотрены образовательное взаимодействие, информационная поддержка и работа с абитуриентами.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [
+        "INTEST MAX",
+        "Inter Nation English School"
+      ],
+      "source_documents": [
+        {
+          "title": "Internation English School.PDF",
+          "url": "https://drive.google.com/file/d/1fcRuSJB6oGGH8sSqz7U-Owiez54twPOF/view?usp=drivesdk",
+          "drive_file_id": "1fcRuSJB6oGGH8sSqz7U-Owiez54twPOF",
+          "pages": 5,
+          "sha256": "4bc408d900a6d396b8b032c1c5eb246562b370e0de907460d7fe5a04b67a151f"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://inter-nation.uz/en",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-092",
+      "name": "Nizomiy nomidagi TDPU akademik litseyi",
+      "organization_type": "GOVERNMENT",
+      "country": "Uzbekistan",
+      "website": "https://tdpu-al.uz/about-us/",
+      "description": "Академический лицей при педагогическом университете имени Низами. Предусмотрено сотрудничество в сфере образования.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "NIZOMIY NOMIDAGI TDPU AKADEMIK LITSEYI.PDF",
+          "url": "https://drive.google.com/file/d/1Yy8soWdto4HEq_5O8DfQhs1aH1yzKEkF/view?usp=drivesdk",
+          "drive_file_id": "1Yy8soWdto4HEq_5O8DfQhs1aH1yzKEkF",
+          "pages": 2,
+          "sha256": "5ba9ea1c96c1eda6604f5b6cb0e87e7806dc64fd7ca8a8eec4cfc04edf40a3c9"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://tdpu-al.uz/about-us/",
+      "type_evidence_url": "https://tdpu-al.uz/about-us/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-093",
+      "name": "Cambridge Learning Center",
+      "organization_type": "OTHER",
+      "country": "Uzbekistan",
+      "website": "https://cambridgeonline.uz/en",
+      "description": "Учебный центр иностранных языков. Предусмотрены образовательное взаимодействие, работа с абитуриентами и совместные информационные инициативы.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "CAMBRIDGE LEARNING CENTER.PDF",
+          "url": "https://drive.google.com/file/d/1Kt9p2rf4hE0ZWDsspWW7CLqEEynZqRVK/view?usp=drivesdk",
+          "drive_file_id": "1Kt9p2rf4hE0ZWDsspWW7CLqEEynZqRVK",
+          "pages": 2,
+          "sha256": "06d6b945fb0ab31afd50dbf31f2351ef459219b1fc91c501315e83148cbe6997"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://cambridgeonline.uz/en",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-094",
+      "name": "Beijing RuiPan International Education Technology Co., Ltd.",
+      "organization_type": "COMPANY",
+      "country": "China",
+      "website": "https://tuit.uz/en/post/tatuga-xitoy-xalq-respublikasining-talim-sohasidagi-yetakchi-beijing-ruipan",
+      "description": "Образовательная компания в Китае. Предусмотрены академическое и образовательное сотрудничество и развитие международных связей.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Beijing RuiPan International Education Technology.pdf",
+          "url": "https://drive.google.com/file/d/1Al-vFqrzihneBV4nTw6SlYNkMr06XdOy/view?usp=drivesdk",
+          "drive_file_id": "1Al-vFqrzihneBV4nTw6SlYNkMr06XdOy",
+          "pages": 4,
+          "sha256": "575d03400465c3a1b252c14c1bcb3012557b16b2025d3a76ed16755f00db3edb"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_partner_reference",
+      "website_evidence_url": "https://tuit.uz/en/post/tatuga-xitoy-xalq-respublikasining-talim-sohasidagi-yetakchi-beijing-ruipan",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-095",
+      "name": "WSB Merito University in Poznań",
+      "organization_type": "UNIVERSITY",
+      "country": "Poland",
+      "website": "https://www.merito.pl/english/poznan/",
+      "description": "Университет в Познани. Предусмотрены академические обмены, совместные исследования, проекты и разработка учебных курсов.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [
+        "Uniwersytet WSB Merito w Poznaniu"
+      ],
+      "source_documents": [
+        {
+          "title": "WSB Merito University.PDF",
+          "url": "https://drive.google.com/file/d/1qrY2D38hCaXWP4F_Z_IdTqX6oWRmjWcK/view?usp=drivesdk",
+          "drive_file_id": "1qrY2D38hCaXWP4F_Z_IdTqX6oWRmjWcK",
+          "pages": 3,
+          "sha256": "5f75457b39bb7fb5f32fb6c9afca2c3d1e7bd927026a1596377a05b84a436033"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://www.merito.pl/english/poznan/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-096",
+      "name": "Alexander Museum Palace Hotel",
+      "organization_type": "COMPANY",
+      "country": "Italy",
+      "website": "https://www.alexandermuseum.it/en/home_3.html",
+      "description": "Отель в Пезаро. В многостороннем документе предусмотрены художественные мастер-классы, выставки и возможности практического обучения студентов.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Alexander Museum Palace Hotel.PDF",
+          "url": "https://drive.google.com/file/d/1ZBrOsVl7bDC0SSeyT7wDPIg24RnZGOVS/view?usp=drivesdk",
+          "drive_file_id": "1ZBrOsVl7bDC0SSeyT7wDPIg24RnZGOVS",
+          "pages": 1,
+          "sha256": "ad2176d96910f96a6e4ddc72740a0775bfa3c70fcbf9e93846b40fa846b6b37b"
+        }
+      ],
+      "review_notes": "В многостороннем документе также указаны Progetto Angeli и International Art Prize Giotto. Для Progetto Angeli подготовлена отдельная карточка; Giotto — премия/инициатива, отдельная организация не создается. Вместо старого домена alexander-museum.it из PDF указан текущий сайт отеля alexandermuseum.it.",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://www.alexandermuseum.it/en/home_3.html",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-096b",
+      "name": "Associazione Culturale Internazionale Progetto Angeli",
+      "organization_type": "NGO",
+      "country": "Italy",
+      "website": "https://www.arteaida.com/blog-detail/post/244127/arte-diplomazia-con-accento-italiano",
+      "description": "Культурная ассоциация — участник многостороннего документа о развитии молодых талантов и обмене между Узбекистаном и Италией.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Alexander Museum Palace Hotel.PDF",
+          "url": "https://drive.google.com/file/d/1ZBrOsVl7bDC0SSeyT7wDPIg24RnZGOVS/view?usp=drivesdk",
+          "drive_file_id": "1ZBrOsVl7bDC0SSeyT7wDPIg24RnZGOVS",
+          "pages": 1,
+          "sha256": "ad2176d96910f96a6e4ddc72740a0775bfa3c70fcbf9e93846b40fa846b6b37b"
+        }
+      ],
+      "review_notes": "Страна дополнена по сообщению Бадиий академии Узбекистана об итальянской ассоциации Progetto Angeli и её президенте Аиде Абдуллаевой. В PDF ассоциация — отдельный участник многостороннего документа.",
+      "ready_for_import": true,
+      "website_kind": "official_representative_page",
+      "website_evidence_url": "https://www.arteaida.com/blog-detail/post/244127/arte-diplomazia-con-accento-italiano",
+      "country_evidence_url": "https://art-academy.uz/blog/news/hamkorlik-togrisida-memorandum-imzolandi",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-097",
+      "name": "Pavel Benkov nomidagi Respublika ixtisoslashtirilgan rassomlik maktabi",
+      "organization_type": "GOVERNMENT",
+      "country": "Uzbekistan",
+      "website": "https://t.me/s/benkovmaktabi/",
+      "description": "Республиканская специализированная художественная школа. Предусмотрены творческое сотрудничество, образование и обмен опытом.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Беньков рассомлик мактаби.PDF",
+          "url": "https://drive.google.com/file/d/1yC2Kumsmm45DDst-QOKQNpgC-i5LGVCZ/view?usp=drivesdk",
+          "drive_file_id": "1yC2Kumsmm45DDst-QOKQNpgC-i5LGVCZ",
+          "pages": 3,
+          "sha256": "52f705977759eb6776c14103a846ff20d811f2a6b1d9e3914a4331821c5b8ad4"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_social_profile",
+      "website_evidence_url": "https://t.me/s/benkovmaktabi/",
+      "type_evidence_url": "https://t.me/s/benkovmaktabi/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-098",
+      "name": "Oʻzbekiston Respublikasi Kriminologiya tadqiqot instituti",
+      "organization_type": "GOVERNMENT",
+      "country": "Uzbekistan",
+      "website": "https://kti.iiv.uz/",
+      "description": "Институт криминологических исследований. Предусмотрены научное, экспертное и образовательное сотрудничество.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Kriminologiya tadqiqot instituti.PDF",
+          "url": "https://drive.google.com/file/d/1Y-A-h30YhpPd4vknc5iPnt408gXVBQxI/view?usp=drivesdk",
+          "drive_file_id": "1Y-A-h30YhpPd4vknc5iPnt408gXVBQxI",
+          "pages": 3,
+          "sha256": "7f7957dc269ee9760abaa6dfcf42e738c2364bcae0d845283bda6229c8eb7cc2"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://kti.iiv.uz/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-099",
+      "name": "Toshkent shahar pedagoglarni yangi metodikalarga oʻrgatish milliy markazi",
+      "organization_type": "GOVERNMENT",
+      "country": "Uzbekistan",
+      "website": "https://t.me/s/tashedu",
+      "description": "Национальный центр обучения педагогов новым методикам. Предусмотрено сотрудничество в педагогике, андрагогике, исследованиях и инновациях.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Тошкент шаҳар педагогларни янги методикаларга ўргатиш.PDF",
+          "url": "https://drive.google.com/file/d/1CSknubQHRXbWsmm4Qs0Ya-LnplqPthXV/view?usp=drivesdk",
+          "drive_file_id": "1CSknubQHRXbWsmm4Qs0Ya-LnplqPthXV",
+          "pages": 2,
+          "sha256": "171d9c5fd3eecc65fd00b13bb1f5cdf7a9752d431d65f94ab392422d3f9ea02b"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_social_profile",
+      "website_evidence_url": "https://t.me/s/tashedu",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-100",
+      "name": "American International University-Bangladesh",
+      "organization_type": "UNIVERSITY",
+      "country": "Bangladesh",
+      "website": "https://www.aiub.edu/",
+      "description": "Университет в Бангладеш. Документ предусматривает академическое и образовательное сотрудничество.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [
+        "AIUB",
+        "American International University Bangladesh"
+      ],
+      "source_documents": [
+        {
+          "title": "American International University.PDF",
+          "url": "https://drive.google.com/file/d/12EejQDISuoXjknzAMJTP2NaRNjWUSb6P/view?usp=drivesdk",
+          "drive_file_id": "12EejQDISuoXjknzAMJTP2NaRNjWUSb6P",
+          "pages": 1,
+          "sha256": "998dd8de043602ba3a35d23e7c4ec7a02847bb98211cb014665496186b120ec5"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://www.aiub.edu/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-101",
+      "name": "ООО «UZPAYNET»",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://paynet.uz/",
+      "description": "Компания платежных услуг. Меморандум предусматривает образовательное сотрудничество и совместные инициативы с университетом.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Paynet memo.PDF",
+          "url": "https://drive.google.com/file/d/1tmkP9Bn-zvYIsnaVv4HxtkRRqGigi95b/view?usp=drivesdk",
+          "drive_file_id": "1tmkP9Bn-zvYIsnaVv4HxtkRRqGigi95b",
+          "pages": 4,
+          "sha256": "2cf95f8227fda7ab0e6eec365697ae394d51180feb4dfa7eccb5179e0a465768"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://paynet.uz/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-102",
+      "name": "ИП ООО «GRAND MIR»",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://grandmirhotel.uz/ru-ru/",
+      "description": "Гостиничная организация Grand Mir. Предусмотрены практика, подготовка специалистов и сотрудничество в гостиничном деле и туризме.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [
+        "Grand Mir Hotel",
+        "GRAND MIR"
+      ],
+      "source_documents": [
+        {
+          "title": "Grand Mir Hotel.pdf",
+          "url": "https://drive.google.com/file/d/1MjLPGXhLy1q_HxlBF7WZs2fIerKUWcU-/view?usp=drivesdk",
+          "drive_file_id": "1MjLPGXhLy1q_HxlBF7WZs2fIerKUWcU-",
+          "pages": 3,
+          "sha256": "c268d8df40e53fc386f91f6c4996fb0a886af4eba848538fedd8a21147b32ac8"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://grandmirhotel.uz/ru-ru/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-103",
+      "name": "Lithuanian University of Health Sciences",
+      "organization_type": "UNIVERSITY",
+      "country": "Lithuania",
+      "website": "https://lsmu.lt/",
+      "description": "Университет наук о здоровье в Каунасе. Предусмотрены академические и клинические обмены и сотрудничество в исследованиях.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "LITHUANIAN UNIVERSITY OF HEALTH.PDF",
+          "url": "https://drive.google.com/file/d/1UMyL5poTK1lvfcQ9kTcTf9MCY9BCkoda/view?usp=drivesdk",
+          "drive_file_id": "1UMyL5poTK1lvfcQ9kTcTf9MCY9BCkoda",
+          "pages": 5,
+          "sha256": "2422d4bad3aca916941e337caae8fb1364fad47c0e9e8c4c66b3cf90bd55e0a1"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://lsmu.lt/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-104",
+      "name": "Karabük University",
+      "organization_type": "UNIVERSITY",
+      "country": "Turkey",
+      "website": "https://www.karabuk.edu.tr/",
+      "description": "Университет в Турции. Документ посвящен реализации совместных образовательных программ высшего образования.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [
+        "Karabuk University"
+      ],
+      "source_documents": [
+        {
+          "title": "Karabuk University.PDF",
+          "url": "https://drive.google.com/file/d/1XHSFQxuGYNLoxSL_2MEfBSEuSRdPpUq2/view?usp=drivesdk",
+          "drive_file_id": "1XHSFQxuGYNLoxSL_2MEfBSEuSRdPpUq2",
+          "pages": 9,
+          "sha256": "9229df6f6dbdac794317f139ec31c5140b565ba8f112f4f42213f94a4e32ae5a"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://www.karabuk.edu.tr/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-105",
+      "name": "ООО «ACPA-EDU»",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://acpa-edu.com/",
+      "description": "Учебный центр — сторона соглашения о сотрудничестве. В тексте упоминаются образовательные программы и квалификации Pearson; Pearson не указан стороной этого соглашения.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [
+        "ACPA-EDU"
+      ],
+      "source_documents": [
+        {
+          "title": "Pearson.pdf",
+          "url": "https://drive.google.com/file/d/11-ddGtWg-QMFvIr0vyeBtyWmj8Ow5lGa/view?usp=drivesdk",
+          "drive_file_id": "11-ddGtWg-QMFvIr0vyeBtyWmj8Ow5lGa",
+          "pages": 11,
+          "sha256": "2c875cdd6e9ab618f026a8461c404a0d143f84f15d86dcd0b110940426e7bda3"
+        }
+      ],
+      "review_notes": "Имя файла Pearson; контрагент — ООО ACPA-EDU. Карточка Pearson plc не создается.",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://acpa-edu.com/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-106",
+      "name": "Università Europea del Design di Pescara (UED)",
+      "organization_type": "UNIVERSITY",
+      "country": "Italy",
+      "website": "https://www.uedpescara.it",
+      "description": "Образовательная организация в сфере дизайна. Предусмотрены международный обмен и обучение в дизайне моды, графическом и интерьерном дизайне.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "European Design University Pescare.PDF",
+          "url": "https://drive.google.com/file/d/1wCIz6F6-s_YIOCh5TazBdDO1PJHaBq7Y/view?usp=drivesdk",
+          "drive_file_id": "1wCIz6F6-s_YIOCh5TazBdDO1PJHaBq7Y",
+          "pages": 3,
+          "sha256": "21cac8b870d048ce85b21cc4ce2b67db57327dffa9d414d911a3ade30ebbaacb"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "document_website",
+      "website_evidence_url": "https://drive.google.com/file/d/1wCIz6F6-s_YIOCh5TazBdDO1PJHaBq7Y/view?usp=drivesdk",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-107",
+      "name": "ООО «Twins Textile Development»",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://orginfo.uz/ru/organization/e3243e301b89/",
+      "description": "Текстильная компания. Предусмотрены исследования, лабораторные испытания продукции и обучение специалистов в текстиле и дизайне.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Twins Textile Development.pdf",
+          "url": "https://drive.google.com/file/d/1JilCDvHKLryU5Ua-OwkH-6o9v4evuBej/view?usp=drivesdk",
+          "drive_file_id": "1JilCDvHKLryU5Ua-OwkH-6o9v4evuBej",
+          "pages": 3,
+          "sha256": "1845652458893d1bbb3c764e6a0c9c7bc09d0c55b43ecf69e7fe895042245dda"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "organization_registry_profile",
+      "website_evidence_url": "https://orginfo.uz/ru/organization/e3243e301b89/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-108",
+      "name": "ENTER ENGINEERING PTE. LTD.",
+      "organization_type": "COMPANY",
+      "country": "Singapore",
+      "website": "https://www.ent-en.com/en",
+      "description": "Инженерно-строительная компания, работающая в том числе в Узбекистане. Предусмотрены практическая подготовка студентов и научно-производственное сотрудничество.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [
+        "Enter Engineering Pte Ltd"
+      ],
+      "source_documents": [
+        {
+          "title": "Enter Engineering memo.PDF",
+          "url": "https://drive.google.com/file/d/1xiNYtLgnAm7R-nhpYMXFQpBN5jXrYFCY/view?usp=drivesdk",
+          "drive_file_id": "1xiNYtLgnAm7R-nhpYMXFQpBN5jXrYFCY",
+          "pages": 2,
+          "sha256": "4daa5e1c95e5318ed31a30e26f58d38db66a3cc0fbbf138b32e03fe2a71dbad3"
+        }
+      ],
+      "review_notes": "В тексте указана ENTER ENGINEERING PTE. LTD.; страна Singapore дополнена по официальному сайту с адресом в Singapore. https://www.ent-en.com/page/geografiya",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://www.ent-en.com/en",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-109",
+      "name": "«Oʻzsanoatqurilishmateriallari» uyushmasi",
+      "organization_type": "NGO",
+      "country": "Uzbekistan",
+      "website": "https://www.uzsm.uz/uz/about/management/",
+      "description": "Ассоциация промышленности строительных материалов. Предусмотрены исследования, испытания материалов, практика студентов и подготовка специалистов.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Меморандум қурилиш материаллари.PDF",
+          "url": "https://drive.google.com/file/d/197CCT9nd0-q3KBGgfwh9TUdGGq1IRsH3/view?usp=drivesdk",
+          "drive_file_id": "197CCT9nd0-q3KBGgfwh9TUdGGq1IRsH3",
+          "pages": 3,
+          "sha256": "0e9bfcabd3ddca20b844542438bad12b772d43e67d366e5796d5c5b0869e5eb0"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://www.uzsm.uz/uz/about/management/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-110",
+      "name": "ООО «Софтехно»",
+      "organization_type": "COMPANY",
+      "country": "Russia",
+      "website": "https://1cbo.ru/o_kompanii/politika_obrabotki_dannih",
+      "description": "Сторона трехстороннего договора об использовании программных продуктов 1С в образовании. Предусмотрены льготное предоставление ПО и методическая поддержка.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [
+        "Софтехно"
+      ],
+      "source_documents": [
+        {
+          "title": "1С  Venkon.PDF",
+          "url": "https://drive.google.com/file/d/1KkmEHwepI-0R03B0Cw3__XuN_u8eMMY1/view?usp=drivesdk",
+          "drive_file_id": "1KkmEHwepI-0R03B0Cw3__XuN_u8eMMY1",
+          "pages": 3,
+          "sha256": "dae881cd79f83358414e23f035a5f22f0af3332880f52e3e5896a7a572c158cd"
+        }
+      ],
+      "review_notes": "В трехстороннем договоре две внешние организации: Софтехно (Russia) и VENKON GROUP (Uzbekistan); подготовлены две карточки.",
+      "ready_for_import": true,
+      "website_kind": "official_company_legal_page",
+      "website_evidence_url": "https://1cbo.ru/o_kompanii/politika_obrabotki_dannih",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-110b",
+      "name": "ООО «VENKON GROUP»",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://venkon.uz/",
+      "description": "Партнер 1С — сторона трехстороннего договора с ООО «Софтехно» и вузом. Предусмотрены поставка и сопровождение программных продуктов для учебного процесса.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [
+        "VENKON GROUP"
+      ],
+      "source_documents": [
+        {
+          "title": "1С  Venkon.PDF",
+          "url": "https://drive.google.com/file/d/1KkmEHwepI-0R03B0Cw3__XuN_u8eMMY1/view?usp=drivesdk",
+          "drive_file_id": "1KkmEHwepI-0R03B0Cw3__XuN_u8eMMY1",
+          "pages": 3,
+          "sha256": "dae881cd79f83358414e23f035a5f22f0af3332880f52e3e5896a7a572c158cd"
+        }
+      ],
+      "review_notes": "Отдельная внешняя сторона трехстороннего договора; не объединяется с Софтехно.",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://venkon.uz/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-111",
+      "name": "ООО «Devs Unity»",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://www.text.com/partners/directory/profile/devsunity/",
+      "description": "Компания — сторона меморандума. В документе указаны архитектура и инженерия, совместные проекты, гостевые лекции и стажировки.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [
+        "Devs Unity"
+      ],
+      "source_documents": [
+        {
+          "title": "Devs Unity.PDF",
+          "url": "https://drive.google.com/file/d/10geDexGVDBy9lP5JEtKDe6rehmcxd8k5/view?usp=drivesdk",
+          "drive_file_id": "10geDexGVDBy9lP5JEtKDe6rehmcxd8k5",
+          "pages": 6,
+          "sha256": "0ff0b762df40865f25feb4ec4638e7267e8d16bc0cf6cb9c3fa2203c04323049"
+        }
+      ],
+      "review_notes": "В основной части сторона Devs Unity, но в колонтитулах осталось HEERIM ARCHITECTS & PLANNERS. Для карточки взята сторона основной части.",
+      "ready_for_import": true,
+      "website_kind": "official_partner_profile",
+      "website_evidence_url": "https://www.text.com/partners/directory/profile/devsunity/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-112",
+      "name": "Маргиланский банковско-финансовый техникум",
+      "organization_type": "GOVERNMENT",
+      "country": "Uzbekistan",
+      "website": "https://t.me/s/Margilanbank",
+      "description": "Банковско-финансовый техникум. Предусмотрены образовательное и научно-практическое взаимодействие и подготовка кадров.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Мағилон банк-молия техникуми.PDF",
+          "url": "https://drive.google.com/file/d/1mRGCCZL1QlPbGLWaf4gF2oH60_8S3t6b/view?usp=drivesdk",
+          "drive_file_id": "1mRGCCZL1QlPbGLWaf4gF2oH60_8S3t6b",
+          "pages": 3,
+          "sha256": "33add8950e53e58d9b37dccb18916ada67ac1952afdf03f776e7ee1edca8f001"
+        }
+      ],
+      "review_notes": "В одном из пунктов упоминается гостиничный бизнес, хотя сторона — банковско-финансовый техникум. Содержание будущего соглашения нужно проверить вручную.",
+      "ready_for_import": true,
+      "website_kind": "official_social_profile",
+      "website_evidence_url": "https://t.me/s/Margilanbank",
+      "type_evidence_url": "https://t.me/s/Margilanbank",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-113",
+      "name": "Tashkent State Agrarian University",
+      "organization_type": "UNIVERSITY",
+      "country": "Uzbekistan",
+      "website": "https://tdau.uz/en/",
+      "description": "Аграрный университет. Предусмотрены культурный, образовательный и научный обмен, совместная работа и обмен опытом.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Аграр университети.pdf",
+          "url": "https://drive.google.com/file/d/1P4KBjsZEToSUPuyTFT3Dvwl9voL5ywMF/view?usp=drivesdk",
+          "drive_file_id": "1P4KBjsZEToSUPuyTFT3Dvwl9voL5ywMF",
+          "pages": 4,
+          "sha256": "85ad5249935fd2340993c7a153c96bf4974e146072cb20327106a96aa5177850"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://tdau.uz/en/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-114",
+      "name": "Check Point Software Technologies Ltd.",
+      "organization_type": "COMPANY",
+      "country": "Israel",
+      "website": "https://www.checkpoint.com/",
+      "description": "Компания — сторона соглашения SecureAcademy. Предусмотрен доступ к учебному ПО и материалам по информационной безопасности с установленными требованиями к обучению.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [
+        "Check Point Software Technologies Ltd"
+      ],
+      "source_documents": [
+        {
+          "title": "Check Point Secure Academy.pdf",
+          "url": "https://drive.google.com/file/d/14MiUdcuNXafVRP9vNmWvmmG64eFa8qDX/view?usp=drivesdk",
+          "drive_file_id": "14MiUdcuNXafVRP9vNmWvmmG64eFa8qDX",
+          "pages": 6,
+          "sha256": "50ad17fe1db40ede0854829347cfc4fd7a7f1e30d434cc5138df8c47d80a009c"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://www.checkpoint.com/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-115",
+      "name": "Qurilishda standartlashtirish respublika markazi",
+      "organization_type": "GOVERNMENT",
+      "country": "Uzbekistan",
+      "website": "https://orginfo.uz/uz/organization/7e175ff84c28/",
+      "description": "Республиканский центр стандартизации в строительстве. Предусмотрены научно-практические исследования, подготовка кадров и практика студентов.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Қурилишда стандартлаштириш республика маркази.PDF",
+          "url": "https://drive.google.com/file/d/1jyBGjx_m1PY9vILT_Lj7szQDqFCpcPUf/view?usp=drivesdk",
+          "drive_file_id": "1jyBGjx_m1PY9vILT_Lj7szQDqFCpcPUf",
+          "pages": 3,
+          "sha256": "2dc5441be5382207d28f582fc6bc6c763534e523350da1859e7e46dba582cf13"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "organization_registry_profile",
+      "website_evidence_url": "https://orginfo.uz/uz/organization/7e175ff84c28/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-116",
+      "name": "Ilmiy-texnik axborot markazi",
+      "organization_type": "GOVERNMENT",
+      "country": "Uzbekistan",
+      "website": "https://csti.uz/",
+      "description": "Центр научно-технической информации при Министерстве инновационного развития, указанном в документе. Предусмотрено научно-образовательное сотрудничество.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "ILMIY-TEXNIK AXBOROT MARKAZI.pdf",
+          "url": "https://drive.google.com/file/d/1iuTZecOYpeSlaxyIsxWYd-Kpmx_fxs6k/view?usp=drivesdk",
+          "drive_file_id": "1iuTZecOYpeSlaxyIsxWYd-Kpmx_fxs6k",
+          "pages": 3,
+          "sha256": "7e7bd77649b50345bea6c9cd4b7066bbc71637f31f9bdb9172b0f7635eeac1b0"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://csti.uz/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-117",
+      "name": "ООО «BILIM TECH» (Astrum)",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://astrum.uz/eng",
+      "description": "Компания, представленная в документе с контактами Astrum Academy. Предусмотрены IT-проекты, гостевые лекции, стажировки и развитие молодых специалистов.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [
+        "BILIM TECH",
+        "ООО BILIM TECH"
+      ],
+      "source_documents": [
+        {
+          "title": "Astrum memo.pdf",
+          "url": "https://drive.google.com/file/d/1YU2osmnAolLNmevEVxB8VUPbBVnUGLoS/view?usp=drivesdk",
+          "drive_file_id": "1YU2osmnAolLNmevEVxB8VUPbBVnUGLoS",
+          "pages": 4,
+          "sha256": "b912141b996070d59b385815ca7fcc681a3705f69b5895dc0315b71ab9a17a2e"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://astrum.uz/eng",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-118",
+      "name": "СП ООО «UzAssystem»",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://uzassystem.uz/",
+      "description": "Инженерная компания, зарегистрированная в Ташкенте. Предусмотрены совместные образовательные и исследовательские проекты, курсы и лекции.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [
+        "UzAssystem"
+      ],
+      "source_documents": [
+        {
+          "title": "Uzassystem.pdf",
+          "url": "https://drive.google.com/file/d/1cHm84IZFYc17VFjxtt6EJWUdajCYwWFM/view?usp=drivesdk",
+          "drive_file_id": "1cHm84IZFYc17VFjxtt6EJWUdajCYwWFM",
+          "pages": 10,
+          "sha256": "205ab8e697a0577aff727de66ed2cd1848d9c5b08448fd12197b9a319fb5520d"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://uzassystem.uz/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-119",
+      "name": "ООО «IT-парк инноваций в кибернетике»",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://www.cyberpark.uz/",
+      "description": "Организация в области ИКТ и кибербезопасности. Предусмотрены стартапы, исследования, опытно-конструкторская деятельность и образовательное взаимодействие.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "IТ-парк инноваций в кибернетике.PDF",
+          "url": "https://drive.google.com/file/d/13ClLAnMoepn2xCqtYqVNFJ4qYIyVHNAp/view?usp=drivesdk",
+          "drive_file_id": "13ClLAnMoepn2xCqtYqVNFJ4qYIyVHNAp",
+          "pages": 5,
+          "sha256": "ea397c914015b5cbd15c9c0d551161f39d49c966c5196e8b91bcbfd8357640d7"
+        }
+      ],
+      "review_notes": "Это отдельное ООО; не объединять с технологическим парком из источника 150 или Technopark AL-Jabr из 121.",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://www.cyberpark.uz/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-120",
+      "name": "Tashkent Chungyeon Korean Medicine Clinic",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://www.yellowpages.uz/en/company/chungyeon-korean-medicine-clinic",
+      "description": "Клиника в Ташкенте. Соглашение предусматривает практическую подготовку студентов медицинского профиля.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "CHUNGYEON KOREAN CLINIC.PDF",
+          "url": "https://drive.google.com/file/d/1S4bqjKioo_Fd3Trh9wJYRoE4BLVSjV-H/view?usp=drivesdk",
+          "drive_file_id": "1S4bqjKioo_Fd3Trh9wJYRoE4BLVSjV-H",
+          "pages": 3,
+          "sha256": "49debb0b3ea90e8b850330ff95815836376207ef553bf5a5b0849e7051366a3b"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "business_directory_profile",
+      "website_evidence_url": "https://www.yellowpages.uz/en/company/chungyeon-korean-medicine-clinic",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-121",
+      "name": "СП ООО «Technopark AL-Jabr»",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://www.linkedin.com/company/al-jabr",
+      "description": "Компания — сторона меморандума о совместных проектах и взаимодействии с университетом.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [
+        "Technopark AL-Jabr"
+      ],
+      "source_documents": [
+        {
+          "title": "Технопарк.PDF",
+          "url": "https://drive.google.com/file/d/1evnEmmVW9x-NvC9DphXEvbvq18inQnYR/view?usp=drivesdk",
+          "drive_file_id": "1evnEmmVW9x-NvC9DphXEvbvq18inQnYR",
+          "pages": 5,
+          "sha256": "7e51c6373d800f4681b96bc1739193bc79c62d537f275996cb836b793bbc0b72"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_social_profile",
+      "website_evidence_url": "https://www.linkedin.com/company/al-jabr",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-122",
+      "name": "MIMAR GROUP MChJ",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://t.me/mimargroupuz",
+      "description": "Компания — сторона меморандума о подготовке кадров, взаимодействии образования и производства и развитии профессиональных компетенций.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Mimar.PDF",
+          "url": "https://drive.google.com/file/d/1QTIFC8OT86X-Zjys_d5KN9TvXlbFDKUv/view?usp=drivesdk",
+          "drive_file_id": "1QTIFC8OT86X-Zjys_d5KN9TvXlbFDKUv",
+          "pages": 5,
+          "sha256": "ca63e8487e275a6528c831bd9983923cf9aa8bd1f8d8c2bb361f869cc5989690"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_social_profile",
+      "website_evidence_url": "https://t.me/mimargroupuz",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-123",
+      "name": "Нукусский государственный педагогический институт имени Ажинияза",
+      "organization_type": "UNIVERSITY",
+      "country": "Uzbekistan",
+      "website": "https://ndpi.uz/ru/",
+      "description": "Педагогический институт. Предусмотрены научно-практическое сотрудничество, академические занятия, практика и обмен опытом.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Нукус педагогика институти.PDF",
+          "url": "https://drive.google.com/file/d/1amSrO4yjn2dsa17WXkAe36lrK5rXXnO3/view?usp=drivesdk",
+          "drive_file_id": "1amSrO4yjn2dsa17WXkAe36lrK5rXXnO3",
+          "pages": 3,
+          "sha256": "db16416a9facb860b3571f90bdccdbc40cf6a2b46c6d9f32c10b7b3a246c3972"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://ndpi.uz/ru/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-124",
+      "name": "CLO Virtual Fashion, LLC",
+      "organization_type": "COMPANY",
+      "country": "United States",
+      "website": "https://www.clo3d.com/",
+      "description": "Компания — сторона лицензионного соглашения на программные продукты CLO. Документ регулирует их применение для академических целей.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [
+        "CLO Virtual Fashion LLC"
+      ],
+      "source_documents": [
+        {
+          "title": "CLO agreement.pdf",
+          "url": "https://drive.google.com/file/d/1a27j3cpv9revvw2ro8XGDoZaUVxkvxw0/view?usp=drivesdk",
+          "drive_file_id": "1a27j3cpv9revvw2ro8XGDoZaUVxkvxw0",
+          "pages": 20,
+          "sha256": "44af286332e393ce3f13861a1e3d70229451238e5c569c780f829d9815be4f11"
+        }
+      ],
+      "review_notes": "Страна United States взята из юридического статуса Delaware LLC в договоре; не из происхождения бренда.",
+      "ready_for_import": true,
+      "website_kind": "document_website",
+      "website_evidence_url": "https://drive.google.com/file/d/1a27j3cpv9revvw2ro8XGDoZaUVxkvxw0/view?usp=drivesdk",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-125",
+      "name": "Qushbegi Plaza Hotel",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "http://www.qushbegiplaza.uz",
+      "description": "Гостиничная организация. Предусмотрены подготовка специалистов, практика и сотрудничество в гостиничном деле и туризме.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Qushbegi Plaza Hotel.pdf",
+          "url": "https://drive.google.com/file/d/1q70OCwspQvGTTUYj4oZjJ4PBB916y-9v/view?usp=drivesdk",
+          "drive_file_id": "1q70OCwspQvGTTUYj4oZjJ4PBB916y-9v",
+          "pages": 3,
+          "sha256": "d3aeaa87901c63f9bc1b639076b78cd0f6db3d059795c32fe63890a299443116"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://www.goldenpages.uz/en/company/?Id=103857",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-126",
+      "name": "ООО «USMC CONSULT» (QVANT)",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://uz.linkedin.com/company/usmc-consult",
+      "description": "Организация, указанная в соглашении как сторона QVANT. Предусмотрены развитие и популяризация науки и повышение качества научных изданий.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [
+        "USMC CONSULT"
+      ],
+      "source_documents": [
+        {
+          "title": "Qvant memo.PDF",
+          "url": "https://drive.google.com/file/d/1ChDQvoSeJjuIIWe1-pK9HT_H4kVcTqBV/view?usp=drivesdk",
+          "drive_file_id": "1ChDQvoSeJjuIIWe1-pK9HT_H4kVcTqBV",
+          "pages": 6,
+          "sha256": "f415ebf7e467081e93fde21cf81d371db202550b499735c76573875f9e701a1e"
+        }
+      ],
+      "review_notes": "Имя файла Qvant; юридическая сторона — USMC CONSULT.",
+      "ready_for_import": true,
+      "website_kind": "official_social_profile",
+      "website_evidence_url": "https://uz.linkedin.com/company/usmc-consult",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-127",
+      "name": "ЧАБ «Трастбанк»",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://trustbank.uz/ru/",
+      "description": "Банк. Предусмотрены подготовка и развитие студентов с учетом потребностей банковского сектора.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Трастбанк.PDF",
+          "url": "https://drive.google.com/file/d/1zTZvj3-w2k07OQ5ICCy2Sp_vYnc7faFH/view?usp=drivesdk",
+          "drive_file_id": "1zTZvj3-w2k07OQ5ICCy2Sp_vYnc7faFH",
+          "pages": 4,
+          "sha256": "45906b51af5a6619afe6b89be3716ee653a837604a01d10a40b854981db2274c"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://trustbank.uz/ru/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-128",
+      "name": "Агентство космических исследований и технологий «Узбеккосмос»",
+      "organization_type": "GOVERNMENT",
+      "country": "Uzbekistan",
+      "website": "https://gov.uz/ru/uzspace",
+      "description": "Агентство космических исследований и технологий. Предусмотрены научно-прикладные исследования, практика студентов и подготовка кадров.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Space Agency.pdf",
+          "url": "https://drive.google.com/file/d/1WWiMBThiQ2IhZskSVdlRYlUQptIlR0oC/view?usp=drivesdk",
+          "drive_file_id": "1WWiMBThiQ2IhZskSVdlRYlUQptIlR0oC",
+          "pages": 4,
+          "sha256": "fe79c0a53f4af6620ab2de8d2765657ed1e8d35fa38331f72662a9ad7e1f8965"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://gov.uz/ru/uzspace",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-129",
+      "name": "ГУП «Ахборот-ҳисоблаш маркази» Министерства финансов Узбекистана",
+      "organization_type": "GOVERNMENT",
+      "country": "Uzbekistan",
+      "website": "https://kiut.uz/uz/yangiliklar/moliya-vazirligining-ahborot-isoblash-markazi/",
+      "description": "Информационно-вычислительный центр, указанный в документе. Предусмотрены исследования в IT, практика и подготовка специалистов.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Ахборот-ҳисоблаш маркази.pdf",
+          "url": "https://drive.google.com/file/d/1BdOgS1XufOdbJQOW8uUTUraeLljNGz-e/view?usp=drivesdk",
+          "drive_file_id": "1BdOgS1XufOdbJQOW8uUTUraeLljNGz-e",
+          "pages": 3,
+          "sha256": "3702ec6a1483287ffb3b659f94d933452fe287f00f48e229be9ae82ae86f0409"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_partner_reference",
+      "website_evidence_url": "https://kiut.uz/uz/yangiliklar/moliya-vazirligining-ahborot-isoblash-markazi/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-130",
+      "name": "НОУ «ACADEMY OF FINANCE AND INVESTMENT MANAGEMENT»",
+      "organization_type": "OTHER",
+      "country": "Uzbekistan",
+      "website": "https://ihamkor.uz/ru/subject/fae8d0ae16c0274bbf780a93fe47e9c5",
+      "description": "Негосударственное образовательное учреждение. Сторона договора о совместной образовательной деятельности по программам подготовки ACCA; сама ACCA стороной договора не указана.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [
+        "ACADEMY OF FINANCE AND INVESTMENT MANAGEMENT"
+      ],
+      "source_documents": [
+        {
+          "title": "ACCA.pdf",
+          "url": "https://drive.google.com/file/d/17rR4lPrlCTfyJbGw2D8frMXr2bN1SMm8/view?usp=drivesdk",
+          "drive_file_id": "17rR4lPrlCTfyJbGw2D8frMXr2bN1SMm8",
+          "pages": 16,
+          "sha256": "d5f8e69fcfc7238de39008bda5e8cdcffd6e1667f7a3434bc673f68e3f798a80"
+        }
+      ],
+      "review_notes": "Имя файла ACCA; контрагент — Academy of Finance and Investment Management. Карточка ACCA как организации не создается.",
+      "ready_for_import": true,
+      "website_kind": "organization_registry_profile",
+      "website_evidence_url": "https://ihamkor.uz/ru/subject/fae8d0ae16c0274bbf780a93fe47e9c5",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-131",
+      "name": "Toshkent davlat sharqshunoslik universiteti",
+      "organization_type": "UNIVERSITY",
+      "country": "Uzbekistan",
+      "website": "https://tsuos.uz/",
+      "description": "Университет востоковедения. Предусмотрено образовательное и научное сотрудничество.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Шарқшунослик университети.pdf",
+          "url": "https://drive.google.com/file/d/14cG6RUfd60DcYDODJuxqr234T1PTV-l1/view?usp=drivesdk",
+          "drive_file_id": "14cG6RUfd60DcYDODJuxqr234T1PTV-l1",
+          "pages": 2,
+          "sha256": "603a7c3b2b6cc02d4928c7cffcb19487bfa0e32424f950bb72695c6d7212de9f"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://tsuos.uz/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-132",
+      "name": "ИП ООО «Huawei Tech Investment Tashkent»",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://www.huawei.com/uz/corporate-information/local-states",
+      "description": "Компания, указанная стороной меморандума о сотрудничестве в ИКТ, телекоммуникациях и образовательной деятельности. Срок и актуальный статус документа подлежат отдельной проверке.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [
+        "Huawei Tech Investment Tashkent"
+      ],
+      "source_documents": [
+        {
+          "title": "MoU Huawei.PDF",
+          "url": "https://drive.google.com/file/d/1cScZAbBtUE3v55VEeU4DOYgG-UoB7wbW/view?usp=drivesdk",
+          "drive_file_id": "1cScZAbBtUE3v55VEeU4DOYgG-UoB7wbW",
+          "pages": 5,
+          "sha256": "f9aa2f6b2b4c3f20a9d72a4229ab3c8869613c74c8664b93029efd9a3db3a5bc"
+        }
+      ],
+      "review_notes": "В копии меморандума срок до 31.12.2025; импорт карточки не подтверждает действующий статус соглашения.",
+      "ready_for_import": true,
+      "website_kind": "official_institution_page",
+      "website_evidence_url": "https://www.huawei.com/uz/corporate-information/local-states",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-133",
+      "name": "Toshkent davlat yuridik universiteti",
+      "organization_type": "UNIVERSITY",
+      "country": "Uzbekistan",
+      "website": "https://tsul.uz/en",
+      "description": "Юридический университет. В архиве соглашение на уровне факультета частного права о научно-практическом и образовательном сотрудничестве.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Юридик университети.PDF",
+          "url": "https://drive.google.com/file/d/1boqnaYq0mEm43e4vwRyjFfYv4XcDALHa/view?usp=drivesdk",
+          "drive_file_id": "1boqnaYq0mEm43e4vwRyjFfYv4XcDALHa",
+          "pages": 3,
+          "sha256": "dde172ba12e1ac7fe260e01a4e5bb9547b1931f4bef5d54b25d6108d1991c4b0"
+        }
+      ],
+      "review_notes": "Документ подписан на уровне факультета частного права ТГЮУ; карточка представляет университет, факультет указан в описании.",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://tsul.uz/en",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-134",
+      "name": "Ташкентский химико-технологический институт",
+      "organization_type": "UNIVERSITY",
+      "country": "Uzbekistan",
+      "website": "https://tkti.uz/ru/posts/sections/xalqaro-aloqalar-bolimi/",
+      "description": "Высшее учебное заведение. Предусмотрены академическое сотрудничество, исследования и обмен опытом.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Хим - тех институт.pdf",
+          "url": "https://drive.google.com/file/d/1OTjN58N6SDABDWfWJ-UWMqbynKyRXPnb/view?usp=drivesdk",
+          "drive_file_id": "1OTjN58N6SDABDWfWJ-UWMqbynKyRXPnb",
+          "pages": 4,
+          "sha256": "1fe72138d5f51fed8f4c2a6d788a73b589940563a3a34c936ef8b89d21cd79ef"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://tkti.uz/ru/posts/sections/xalqaro-aloqalar-bolimi/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-135",
+      "name": "ООО «Interhotel» (International Hotel Tashkent)",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://ihthotel.uz/",
+      "description": "Гостиничная организация. Предусмотрены подготовка кадров, практика и взаимодействие в гостиничном деле и туризме.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [
+        "Interhotel",
+        "International Hotel Tashkent"
+      ],
+      "source_documents": [
+        {
+          "title": "International hotel MoU.PDF",
+          "url": "https://drive.google.com/file/d/1cqbubQ0bTVxw8G925ZwEdX_spINeQYj6/view?usp=drivesdk",
+          "drive_file_id": "1cqbubQ0bTVxw8G925ZwEdX_spINeQYj6",
+          "pages": 3,
+          "sha256": "f95439e8414472413b4a094cea20a4a52eb8088acc91e3dad421c3b8acc50fdb"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://ihthotel.uz/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-136",
+      "name": "Физико-технический институт НПО «Физика-Солнце» АН Узбекистана",
+      "organization_type": "GOVERNMENT",
+      "country": "Uzbekistan",
+      "website": "https://fti.uz/",
+      "description": "Научный институт Академии наук Узбекистана. Предусмотрены совместные проекты, подготовка специалистов и повышение квалификации.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Физика-Қуёш ИИЧБ қошидаги Физика-техника институти.PDF",
+          "url": "https://drive.google.com/file/d/1sDX9ZDXx5hIjbDCHyqqoKs7b0hvr61p2/view?usp=drivesdk",
+          "drive_file_id": "1sDX9ZDXx5hIjbDCHyqqoKs7b0hvr61p2",
+          "pages": 4,
+          "sha256": "c9970cdbde4aea013b40d6f0f50f44437d74681d53d9cc53ead84e5c395b35ba"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://fti.uz/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-137",
+      "name": "Courtyard by Marriott Tashkent",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://www.marriott.com/en-us/hotels/tascy-courtyard-tashkent/overview/",
+      "description": "Отель в Ташкенте. Предусмотрены подготовка специалистов, практика и сотрудничество в гостиничном деле и туризме.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Marriott Hotel.PDF",
+          "url": "https://drive.google.com/file/d/1vLaGxaUTdXsaI_LZr8YvS2ThRHAAbeP0/view?usp=drivesdk",
+          "drive_file_id": "1vLaGxaUTdXsaI_LZr8YvS2ThRHAAbeP0",
+          "pages": 4,
+          "sha256": "e91fad1ad29bc863b1d222cc5cfe9e59415669af979167b2f171c75579792210"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_institution_page",
+      "website_evidence_url": "https://www.marriott.com/en-us/hotels/tascy-courtyard-tashkent/overview/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-138",
+      "name": "НОУ «Al-Aziz Academy»",
+      "organization_type": "OTHER",
+      "country": "Uzbekistan",
+      "website": "https://alazizacademy.uz/",
+      "description": "Негосударственный учебный центр. Предусмотрены подготовка специалистов, повышение квалификации и возможности стажировок.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "Al Aziz Academy ўқув маркази.PDF",
+          "url": "https://drive.google.com/file/d/1CzywrUJcC_SHcDMZxkDo9HKz2AlhIwc8/view?usp=drivesdk",
+          "drive_file_id": "1CzywrUJcC_SHcDMZxkDo9HKz2AlhIwc8",
+          "pages": 3,
+          "sha256": "e978dac8e33ec75d71febdf06b64f3e94cbb52ab9edb14e4f2ce995da52e610d"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://alazizacademy.uz/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-139",
+      "name": "ООО «PRIME TOWER GROUP»",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://orginfo.uz/ru/organization/ce7322262782/",
+      "description": "Компания — сторона соглашения о подготовке кадров, образовательных программах, практике и стажировках студентов.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [
+        "PRIME TOWER GROUP"
+      ],
+      "source_documents": [
+        {
+          "title": "Prime Tower Group.PDF",
+          "url": "https://drive.google.com/file/d/1cowYaz2o4BEOpdGbTPBQpRJ0MBEy5D7m/view?usp=drivesdk",
+          "drive_file_id": "1cowYaz2o4BEOpdGbTPBQpRJ0MBEy5D7m",
+          "pages": 3,
+          "sha256": "6b3ba0a8b99c269670e8589c9a817da38f668779beacfe9866a03476a4c0e6a4"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "organization_registry_profile",
+      "website_evidence_url": "https://orginfo.uz/ru/organization/ce7322262782/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-140",
+      "name": "АКБ «Капиталбанк»",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://www.kapitalbank.uz/ru/welcome.php",
+      "description": "Банк. Предусмотрены образовательное сотрудничество, научно-практические исследования и подготовка специалистов банковского сектора.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [
+        "Капиталбанк",
+        "Kapitalbank"
+      ],
+      "source_documents": [
+        {
+          "title": "Капиталбанк.PDF",
+          "url": "https://drive.google.com/file/d/1Ym4Ak64vim3g274NKdA4uz-AWFgMrR1H/view?usp=drivesdk",
+          "drive_file_id": "1Ym4Ak64vim3g274NKdA4uz-AWFgMrR1H",
+          "pages": 3,
+          "sha256": "1fc0f40876f3428587890205a34474df6aac426556c94279a1c44003b6731c12"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://www.kapitalbank.uz/ru/welcome.php",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-141",
+      "name": "ООО «Gross Insurance»",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://gross.uz/ru",
+      "description": "Страховая компания, указанная в документе. Предусмотрены подготовка специалистов, повышение квалификации и стажировки.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [
+        "Gross Insurance"
+      ],
+      "source_documents": [
+        {
+          "title": "Gross Insurance.PDF",
+          "url": "https://drive.google.com/file/d/1C9kBKaWDp0Nr2XAAO5xzZbF3CiIQu_dn/view?usp=drivesdk",
+          "drive_file_id": "1C9kBKaWDp0Nr2XAAO5xzZbF3CiIQu_dn",
+          "pages": 4,
+          "sha256": "150fff5a7383747a010adcb9d4867d4da2701d530421c9c2da96300aa2b747ea"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://gross.uz/ru",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-142",
+      "name": "СП ООО «BINKET GROUP»",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://uz.linkedin.com/company/binket-group",
+      "description": "Компания — сторона меморандума. Предусмотрены образование, предпринимательство, IT, поддержка стартапов и научные исследования.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [
+        "BINKET GROUP"
+      ],
+      "source_documents": [
+        {
+          "title": "Binket.PDF",
+          "url": "https://drive.google.com/file/d/1r5RIa_5S_E9ww_m0qI83-9GWfwuKXH-A/view?usp=drivesdk",
+          "drive_file_id": "1r5RIa_5S_E9ww_m0qI83-9GWfwuKXH-A",
+          "pages": 5,
+          "sha256": "3714bd4ffd301cfdc30539d075b774989e224b5913588f50309daea6a1e85032"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_social_profile",
+      "website_evidence_url": "https://uz.linkedin.com/company/binket-group",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-143",
+      "name": "ООО «Akfa Engineering and Management»",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://orginfo.uz/ru/organization/61cfd54ac8b3/",
+      "description": "Инженерная компания. Предусмотрены исследования, подготовка кадров, практика и взаимодействие в производстве и инженерии.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [
+        "Akfa Engineering and Management"
+      ],
+      "source_documents": [
+        {
+          "title": "Akfa MoU.PDF",
+          "url": "https://drive.google.com/file/d/1Sbe-46b9xLMtrpHEaMGdcW1GwB_TppNC/view?usp=drivesdk",
+          "drive_file_id": "1Sbe-46b9xLMtrpHEaMGdcW1GwB_TppNC",
+          "pages": 4,
+          "sha256": "e51abd78721c3350a58fc94f7af2cf7db7cd2440ec192d14cdd2bd3563effc04"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "organization_registry_profile",
+      "website_evidence_url": "https://orginfo.uz/ru/organization/61cfd54ac8b3/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-144",
+      "name": "Ургенчский филиал ТУИТ имени Мухаммада аль-Хорезми",
+      "organization_type": "UNIVERSITY",
+      "country": "Uzbekistan",
+      "website": "https://tuit.uz/ru/urganch-filiali",
+      "description": "Филиал университета информационных технологий. Предусмотрены академическое и научное сотрудничество, практика и обмен опытом.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "УфТУИТ Мемо.pdf",
+          "url": "https://drive.google.com/file/d/1BMl5OLcDfsrrxivl-FGc6vjRiDcelx0m/view?usp=drivesdk",
+          "drive_file_id": "1BMl5OLcDfsrrxivl-FGc6vjRiDcelx0m",
+          "pages": 3,
+          "sha256": "f2c560a24e6759eb566f576038f02119c79f610d34ec43de6166dfaca8f31cfb"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_institution_page",
+      "website_evidence_url": "https://tuit.uz/ru/urganch-filiali",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-145",
+      "name": "ООО «Vosiq International School»",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://vosiq.uz/en",
+      "description": "Частная школа. Предусмотрены образовательное взаимодействие, профориентация и работа с одаренными учащимися.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [
+        "Vosiq International School"
+      ],
+      "source_documents": [
+        {
+          "title": "Vosiq International School and Kindergarten.pdf",
+          "url": "https://drive.google.com/file/d/1Ok6qTLJOV0GaelgRSZ9W6NE6OaHRuJWQ/view?usp=drivesdk",
+          "drive_file_id": "1Ok6qTLJOV0GaelgRSZ9W6NE6OaHRuJWQ",
+          "pages": 5,
+          "sha256": "1d12740ca00d7cc4396e3900c5fcd2a59df49ea6427d2a54b79a23057369f2dc"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://vosiq.uz/en",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-146",
+      "name": "ООО «Oxbridge International School»",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://oxbridgeschool.uz/en",
+      "description": "Частная школа. Предусмотрены профориентация старшеклассников и образовательное взаимодействие с университетом.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [
+        "Oxbridge International School"
+      ],
+      "source_documents": [
+        {
+          "title": "Соглашение Oxbridge.PDF",
+          "url": "https://drive.google.com/file/d/16z_oXYnEGNGiQmziu__n0bilrolQ7MPG/view?usp=drivesdk",
+          "drive_file_id": "16z_oXYnEGNGiQmziu__n0bilrolQ7MPG",
+          "pages": 4,
+          "sha256": "c3b7c7266ed4ddde107f6d1b8c90b9d55d993efe48c60ace0978fc108a730841"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://oxbridgeschool.uz/en",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-147",
+      "name": "Hyatt Regency Tashkent",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://www.hyatt.com/hyatt-regency/en-US/tasrt-hyatt-regency-tashkent",
+      "description": "Отель в Ташкенте. Предусмотрены практика, подготовка специалистов и сотрудничество в гостиничном деле и туризме.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "HYATT MoU.PDF",
+          "url": "https://drive.google.com/file/d/1fh6bJKNSQ19_FWVvWfhpu0jWnrvaXeFM/view?usp=drivesdk",
+          "drive_file_id": "1fh6bJKNSQ19_FWVvWfhpu0jWnrvaXeFM",
+          "pages": 4,
+          "sha256": "f6f1941a83309cba0a0b4c7b27f66ffda9a209ed04912a02ab816c91d3ba5711"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_institution_page",
+      "website_evidence_url": "https://www.hyatt.com/hyatt-regency/en-US/tasrt-hyatt-regency-tashkent",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-148",
+      "name": "ООО «POWER CONSTRUCTION PLANET»",
+      "organization_type": "COMPANY",
+      "country": "Uzbekistan",
+      "website": "https://yandex.ru/maps/org/power_construction_planet/88882072919/",
+      "description": "Компания — сторона соглашения об образовании, науке, профессиональных программах, практике и стажировках студентов.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [
+        "Power Construction Planet"
+      ],
+      "source_documents": [
+        {
+          "title": "MoU Discover Invest.pdf",
+          "url": "https://drive.google.com/file/d/1WSOubO7c34PDOChmKIOL1_josFRwJ6co/view?usp=drivesdk",
+          "drive_file_id": "1WSOubO7c34PDOChmKIOL1_josFRwJ6co",
+          "pages": 3,
+          "sha256": "cb0f54c74ca5a1f0720b11abbb1815690ba92274501dfde01aa976521e499dac"
+        }
+      ],
+      "review_notes": "Имя файла Discover Invest; в тексте — POWER CONSTRUCTION PLANET. Автоматическое отождествление с Discover Invest не выполняется.",
+      "ready_for_import": true,
+      "website_kind": "business_directory_profile",
+      "website_evidence_url": "https://yandex.ru/maps/org/power_construction_planet/88882072919/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-149",
+      "name": "IUBH Internationale Hochschule GmbH",
+      "organization_type": "UNIVERSITY",
+      "country": "Germany",
+      "website": "https://www.iu.org/about/",
+      "description": "Университет, указанный в документе под названием IUBH. Предусмотрено сотрудничество по дистанционным образовательным программам.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [
+        "IUBH University of Applied Sciences"
+      ],
+      "source_documents": [
+        {
+          "title": "IUBH  University of Applied Sciences.pdf",
+          "url": "https://drive.google.com/file/d/13yh7edwCwHPVy9OavFO-Nj2v-H1_v6q_/view?usp=drivesdk",
+          "drive_file_id": "13yh7edwCwHPVy9OavFO-Nj2v-H1_v6q_",
+          "pages": 6,
+          "sha256": "6883db7135ab4caaee02ce5d9cdaea07271b18d4dbb7a5e594e34391819aff18"
+        }
+      ],
+      "review_notes": "Сохранено наименование IUBH из документа; текущее наименование и актуальные реквизиты не подменяются предположениями.",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://www.iu.org/about/",
+      "reviewed_on": "2026-10-21"
+    },
+    {
+      "record_key": "memo-150",
+      "name": "Технологический парк программных продуктов и информационных технологий (IT Park)",
+      "organization_type": "OTHER",
+      "country": "Uzbekistan",
+      "website": "https://www.it-park.uz/index.php/ru/itpark/about",
+      "description": "Технологический парк. Предусмотрены подготовка IT-специалистов, исследования, практика, стажировки и образовательные мероприятия.",
+      "is_public": true,
+      "academic_unit_ids": [],
+      "aliases": [],
+      "source_documents": [
+        {
+          "title": "IT Park.pdf",
+          "url": "https://drive.google.com/file/d/19TqAM2aL0WwlD06ROg26ke0-i7mxYhKm/view?usp=drivesdk",
+          "drive_file_id": "19TqAM2aL0WwlD06ROg26ke0-i7mxYhKm",
+          "pages": 4,
+          "sha256": "5f1d7b9e01b4d730d8839dfb635478a90ff2d09e31e741eaa2b043df174e1fc3"
+        }
+      ],
+      "review_notes": "",
+      "ready_for_import": true,
+      "website_kind": "official_website",
+      "website_evidence_url": "https://www.it-park.uz/index.php/ru/itpark/about",
+      "reviewed_on": "2026-10-21"
+    }
+  ],
+  "link_policy": "Prefer organization websites and profiles; identified reference pages otherwise; source-document fallback explicitly marked for memo-004 and memo-021.",
+  "organizations_count": 151
+}
