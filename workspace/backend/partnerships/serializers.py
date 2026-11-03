@@ -85,10 +85,11 @@ class PublicOrganizationMediaSerializer(serializers.ModelSerializer):
 
 class AgreementSerializer(serializers.ModelSerializer):
     organization_name = serializers.CharField(source="organization.name", read_only=True)
+    organization_created_by = serializers.IntegerField(source="organization.created_by_id", read_only=True)
     class Meta:
         model = Agreement
-        fields = ["id", "organization", "organization_name", "title", "agreement_type", "status", "description", "signed_date", "start_date", "expiration_date", "created_by", "updated_by", "created_at", "updated_at"]
-        read_only_fields = AUDIT_READ_ONLY_FIELDS + ["organization_name"]
+        fields = ["id", "organization", "organization_name", "organization_created_by", "title", "agreement_type", "status", "description", "signed_date", "start_date", "expiration_date", "created_by", "updated_by", "created_at", "updated_at"]
+        read_only_fields = AUDIT_READ_ONLY_FIELDS + ["organization_name", "organization_created_by"]
     def validate(self, attrs):
         start_date = attrs.get("start_date", getattr(self.instance, "start_date", None)); expiration_date = attrs.get("expiration_date", getattr(self.instance, "expiration_date", None))
         if start_date and expiration_date and expiration_date < start_date: raise serializers.ValidationError({"expiration_date": "Expiration date cannot be earlier than start date."})

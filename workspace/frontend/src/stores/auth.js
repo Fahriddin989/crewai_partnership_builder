@@ -14,8 +14,10 @@ export const useAuthStore = defineStore('auth', {
       await this.loadCurrentUser()
     },
     async loadCurrentUser() {
+      if (!this.accessToken) return null
       const { data } = await client.get('/api/auth/me/')
       this.user = data
+      return data
     },
     logout() {
       this.accessToken = null
