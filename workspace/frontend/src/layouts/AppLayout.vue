@@ -1,6 +1,6 @@
 <template>
   <div class="app-shell">
-    <aside class="sidebar"><div class="brand">Partnership Management</div><nav><a>Dashboard</a><RouterLink to="/organizations">Organizations</RouterLink></nav></aside>
+    <aside class="sidebar"><div class="brand">Partnership Management</div><nav><RouterLink to="/dashboard">Dashboard</RouterLink><RouterLink to="/organizations">Organizations</RouterLink></nav></aside>
     <main class="main"><header><strong>Partnership Management</strong><div class="user-area"><span>{{ userName }}</span><button @click="logout">Logout</button></div></header><section class="content"><router-view /></section></main>
   </div>
 </template>

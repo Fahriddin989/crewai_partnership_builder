@@ -1,4 +1,7 @@
+from datetime import timedelta
+
 from django.http import FileResponse, Http404
+from django.utils import timezone
 from rest_framework import permissions, viewsets
 from rest_framework.exceptions import PermissionDenied
 from rest_framework.parsers import FormParser, JSONParser, MultiPartParser
@@ -7,6 +10,55 @@ from rest_framework.views import APIView
 from .models import Activity, AcademicUnit, Agreement, AgreementContact, Contact, Document, Organization, OrganizationMedia, OrganizationNote, OrganizationNoteAttachment
 from .permissions import PartnershipPermission, owns_related_object, organization_for, require_owned_organization
 from .serializers import ActivitySerializer, AcademicUnitSerializer, AgreementContactSerializer, AgreementSerializer, ContactSerializer, DocumentSerializer, OrganizationMediaSerializer, OrganizationNoteAttachmentSerializer, OrganizationNoteSerializer, OrganizationSerializer, PublicOrganizationDetailSerializer, PublicOrganizationSerializer
+
+
+class DashboardView(APIView):
+    permission_classes = [PartnershipPermission]
+
+    def get(self, request):
+        today = timezone.localdate()
+        agreement_window_end = today + timedelta(days=30)
+        followup_window_end = today + timedelta(days=14)
+        expiring = Agreement.objects.filter(
+            status=Agreement.Status.ACTIVE,
+            expiration_date__gte=today,
+            expiration_date__lte=agreement_window_end,
+        ).select_related("organization").order_by("expiration_date", "pk")
+        my_organizations = Organization.objects.filter(
+            created_by_id=request.user.id,
+        ).order_by("-created_at", "-pk")
+        my_followups = OrganizationNote.objects.filter(
+            organization__created_by_id=request.user.id,
+            follow_up_date__isnull=False,
+            follow_up_date__lte=followup_window_end,
+        ).exclude(next_step__regex=r"^\\s*$").select_related("organization").order_by("follow_up_date", "pk")
+
+        return Response({
+            "summary": {
+                "total_organizations": Organization.objects.count(),
+                "my_organizations": my_organizations.count(),
+                "active_agreements": Agreement.objects.filter(status=Agreement.Status.ACTIVE).count(),
+                "agreements_expiring_30_days": expiring.count(),
+            },
+            "my_organizations": [
+                {"id": org.id, "name": org.name, "organization_type": org.organization_type,
+                 "country": org.country, "created_at": org.created_at}
+                for org in my_organizations[:8]
+            ],
+            "expiring_agreements": [
+                {"id": agreement.id, "title": agreement.title,
+                 "organization_id": agreement.organization_id,
+                 "organization_name": agreement.organization.name,
+                 "status": agreement.status, "expiration_date": agreement.expiration_date}
+                for agreement in expiring[:8]
+            ],
+            "my_followups": [
+                {"id": note.id, "organization_id": note.organization_id,
+                 "organization_name": note.organization.name, "next_step": note.next_step,
+                 "follow_up_date": note.follow_up_date}
+                for note in my_followups[:8]
+            ],
+        })
 
 
 class AuditModelViewSet(viewsets.ModelViewSet):
@@ -231,7 +283,7 @@ class ActivityViewSet(AuditModelViewSet):
         return qs.filter(agreement_id=value) if value else qs
 
     def perform_create(self, serializer):
-        require_owned_organization(self.request.user, serializer.validated_data["agreement"].organization)
+        require_owned_organization(self.request.user, serializer.validated_data.get("agreement").organization)
         super().perform_create(serializer)
 
     def perform_update(self, serializer):

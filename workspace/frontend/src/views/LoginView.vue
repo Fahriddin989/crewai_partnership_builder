@@ -2,5 +2,5 @@
 <script setup>
 import { ref } from 'vue'; import { useRouter } from 'vue-router'; import { useAuthStore } from '../stores/auth'
 const username=ref(''), password=ref(''), error=ref(''), loading=ref(false); const router=useRouter(); const auth=useAuthStore()
-async function submit(){ loading.value=true; error.value=''; try { await auth.login(username.value,password.value); router.push('/organizations') } catch { error.value='Unable to sign in. Check your username and password.' } finally { loading.value=false } }
+async function submit(){ loading.value=true; error.value=''; try { await auth.login(username.value,password.value); router.push('/dashboard') } catch { error.value='Unable to sign in. Check your username and password.' } finally { loading.value=false } }
 </script>
